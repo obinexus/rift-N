@@ -1,0 +1,2184 @@
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/rift-0.h:8,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:7:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:100:1: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  100 | State* state_create(const char* pattern, bool is_final) {
+      | ^~~~~
+      | DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: In function ‘state_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:101:5: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  101 |     State* state = malloc(sizeof(State));
+      |     ^~~~~
+      |     DFAState
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:101:34: error: ‘State’ undeclared (first use in this function); did you mean ‘state’?
+  101 |     State* state = malloc(sizeof(State));
+      |                                  ^~~~~
+      |                                  state
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘hq_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:101:34: note: each undeclared identifier is reported only once for each function it appears in
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer.h:5,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:8:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: error: redeclaration of enumerator ‘TOKEN_DSL_RULE’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:104:10: error: request for member ‘pattern’ in something not a structure or union
+  104 |     state->pattern = strdup(pattern);
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: note: previous definition of ‘TOKEN_DSL_RULE’ with type ‘enum <anonymous>’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:105:15: error: request for member ‘pattern’ in something not a structure or union
+  105 |     if (!state->pattern) {
+      |               ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: error: redeclaration of enumerator ‘TOKEN_DSL_ACTION’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:110:10: error: request for member ‘is_final’ in something not a structure or union
+  110 |     state->is_final = is_final;
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: note: previous definition of ‘TOKEN_DSL_ACTION’ with type ‘enum <anonymous>’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:111:10: error: request for member ‘id’ in something not a structure or union
+  111 |     state->id = generate_id();
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:100:1: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  100 | State* state_create(const char* pattern, bool is_final) {
+      | ^~~~~
+      | DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: error: redeclaration of enumerator ‘TOKEN_DSL_DIRECTIVE’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:91:47: error: invalid application of ‘sizeof’ to incomplete type ‘HeapQueue’
+   91 |     HeapQueue* hq = (HeapQueue*)malloc(sizeof(HeapQueue));
+      |                                               ^~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: note: previous definition of ‘TOKEN_DSL_DIRECTIVE’ with type ‘enum <anonymous>’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: In function ‘state_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:115:20: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  115 | void state_destroy(State* state) {
+      |                    ^~~~~
+      |                    DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:92:7: error: invalid use of incomplete typedef ‘HeapQueue’
+   92 |     hq->capacity = capacity;
+      |       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: error: redeclaration of enumerator ‘TOKEN_DSL_PATTERN’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:101:5: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  101 |     State* state = malloc(sizeof(State));
+      |     ^~~~~
+      |     DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:121:20: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  121 | bool state_matches(State* state, const char* text) {
+      |                    ^~~~~
+      |                    DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:93:7: error: invalid use of incomplete typedef ‘HeapQueue’
+   93 |     hq->size = 0;
+      |       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: note: previous definition of ‘TOKEN_DSL_PATTERN’ with type ‘enum <anonymous>’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:101:34: error: ‘State’ undeclared (first use in this function); did you mean ‘state’?
+  101 |     State* state = malloc(sizeof(State));
+      |                                  ^~~~~
+      |                                  state
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:94:7: error: invalid use of incomplete typedef ‘HeapQueue’
+   94 |     hq->heap = (Item*)malloc(capacity * sizeof(Item));
+      |       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: error: redeclaration of enumerator ‘TOKEN_DSL_COUNT’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/rift-0.h:8,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:7:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:137:1: error: unknown type name ‘RegexAutomaton’
+  137 | RegexAutomaton* automaton_create(void) {
+      | ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:95:5: error: implicit declaration of function ‘pthread_mutex_init’ [-Werror=implicit-function-declaration]
+   95 |     pthread_mutex_init(&hq->lock, NULL);
+      |     ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘hq_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:101:34: note: each undeclared identifier is reported only once for each function it appears in
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: note: previous definition of ‘TOKEN_DSL_COUNT’ with type ‘enum <anonymous>’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:95:27: error: invalid use of incomplete typedef ‘HeapQueue’
+   95 |     pthread_mutex_init(&hq->lock, NULL);
+      |                           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: In function ‘automaton_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:104:10: error: request for member ‘pattern’ in something not a structure or union
+  104 |     state->pattern = strdup(pattern);
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: error: conflicting types for ‘DSLTokenType’; have ‘enum <anonymous>’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘hq_destroy’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:138:5: error: unknown type name ‘RegexAutomaton’
+  138 |     RegexAutomaton* automaton = malloc(sizeof(RegexAutomaton));
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:105:15: error: request for member ‘pattern’ in something not a structure or union
+  105 |     if (!state->pattern) {
+      |               ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: note: previous declaration of ‘DSLTokenType’ with type ‘DSLTokenType’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:101:12: error: invalid use of incomplete typedef ‘HeapQueue’
+  101 |     free(hq->heap);
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:91:47: error: invalid application of ‘sizeof’ to incomplete type ‘HeapQueue’
+   91 |     HeapQueue* hq = (HeapQueue*)malloc(sizeof(HeapQueue));
+      |                                               ^~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:110:10: error: request for member ‘is_final’ in something not a structure or union
+  110 |     state->is_final = is_final;
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:138:47: error: ‘RegexAutomaton’ undeclared (first use in this function)
+  138 |     RegexAutomaton* automaton = malloc(sizeof(RegexAutomaton));
+      |                                               ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: error: redeclaration of enumerator ‘DFA_STATE_START’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer.h:5,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:8:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: error: redeclaration of enumerator ‘TOKEN_DSL_RULE’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:92:7: error: invalid use of incomplete typedef ‘HeapQueue’
+   92 |     hq->capacity = capacity;
+      |       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:111:10: error: request for member ‘id’ in something not a structure or union
+  111 |     state->id = generate_id();
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:102:5: error: implicit declaration of function ‘pthread_mutex_destroy’ [-Werror=implicit-function-declaration]
+  102 |     pthread_mutex_destroy(&hq->lock);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:141:14: error: request for member ‘state_capacity’ in something not a structure or union
+  141 |     automaton->state_capacity = 10;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: note: previous definition of ‘DFA_STATE_START’ with type ‘enum <anonymous>’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: note: previous definition of ‘TOKEN_DSL_RULE’ with type ‘enum <anonymous>’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:93:7: error: invalid use of incomplete typedef ‘HeapQueue’
+   93 |     hq->size = 0;
+      |       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:102:30: error: invalid use of incomplete typedef ‘HeapQueue’
+  102 |     pthread_mutex_destroy(&hq->lock);
+      |                              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:142:14: error: request for member ‘states’ in something not a structure or union
+  142 |     automaton->states = malloc(sizeof(State*) * automaton->state_capacity);
+      |              ^~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: error: redeclaration of enumerator ‘DFA_STATE_ACCEPT’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: error: redeclaration of enumerator ‘TOKEN_DSL_ACTION’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:94:7: error: invalid use of incomplete typedef ‘HeapQueue’
+   94 |     hq->heap = (Item*)malloc(capacity * sizeof(Item));
+      |       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:115:20: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  115 | void state_destroy(State* state) {
+      |                    ^~~~~
+      |                    DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘hq_enqueue’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:121:20: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  121 | bool state_matches(State* state, const char* text) {
+      |                    ^~~~~
+      |                    DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:142:39: error: ‘State’ undeclared (first use in this function); did you mean ‘DFAState’?
+  142 |     automaton->states = malloc(sizeof(State*) * automaton->state_capacity);
+      |                                       ^~~~~
+      |                                       DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: note: previous definition of ‘DFA_STATE_ACCEPT’ with type ‘enum <anonymous>’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: note: previous definition of ‘TOKEN_DSL_ACTION’ with type ‘enum <anonymous>’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:95:5: error: implicit declaration of function ‘pthread_mutex_init’ [-Werror=implicit-function-declaration]
+   95 |     pthread_mutex_init(&hq->lock, NULL);
+      |     ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:107:5: error: implicit declaration of function ‘pthread_mutex_lock’ [-Werror=implicit-function-declaration]
+  107 |     pthread_mutex_lock(&hq->lock);
+      |     ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:137:1: error: unknown type name ‘RegexAutomaton’
+  137 | RegexAutomaton* automaton_create(void) {
+      | ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:142:45: error: expected expression before ‘)’ token
+  142 |     automaton->states = malloc(sizeof(State*) * automaton->state_capacity);
+      |                                             ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: error: redeclaration of enumerator ‘DFA_STATE_REJECT’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: error: redeclaration of enumerator ‘TOKEN_DSL_DIRECTIVE’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:95:27: error: invalid use of incomplete typedef ‘HeapQueue’
+   95 |     pthread_mutex_init(&hq->lock, NULL);
+      |                           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘_tokenizer_init_context’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:107:27: error: invalid use of incomplete typedef ‘HeapQueue’
+  107 |     pthread_mutex_lock(&hq->lock);
+      |                           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:143:19: error: request for member ‘states’ in something not a structure or union
+  143 |     if (!automaton->states) {
+      |                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: In function ‘automaton_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: note: previous definition of ‘DFA_STATE_REJECT’ with type ‘enum <anonymous>’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: note: previous definition of ‘TOKEN_DSL_DIRECTIVE’ with type ‘enum <anonymous>’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘hq_destroy’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:119:38: error: ‘RIFT_TOKENIZER_ERROR_MSG_SIZE’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_STATE’?
+  119 |         snprintf(ctx->error_message, RIFT_TOKENIZER_ERROR_MSG_SIZE,
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                      RIFT_TOKENIZER_ERROR_STATE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:108:11: error: invalid use of incomplete typedef ‘HeapQueue’
+  108 |     if (hq->size == hq->capacity) {
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:148:14: error: request for member ‘transition_capacity’ in something not a structure or union
+  148 |     automaton->transition_capacity = 20;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:138:5: error: unknown type name ‘RegexAutomaton’
+  138 |     RegexAutomaton* automaton = malloc(sizeof(RegexAutomaton));
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: error: redeclaration of enumerator ‘TOKEN_DSL_PATTERN’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:101:12: error: invalid use of incomplete typedef ‘HeapQueue’
+  101 |     free(hq->heap);
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:119:38: note: each undeclared identifier is reported only once for each function it appears in
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:108:23: error: invalid use of incomplete typedef ‘HeapQueue’
+  108 |     if (hq->size == hq->capacity) {
+      |                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:149:14: error: request for member ‘transitions’ in something not a structure or union
+  149 |     automaton->transitions = malloc(sizeof(Transition*) * automaton->transition_capacity);
+      |              ^~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:138:47: error: ‘RegexAutomaton’ undeclared (first use in this function)
+  138 |     RegexAutomaton* automaton = malloc(sizeof(RegexAutomaton));
+      |                                               ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: note: previous definition of ‘TOKEN_DSL_PATTERN’ with type ‘enum <anonymous>’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:121:27: error: ‘RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED’?
+  121 |         ctx->error_code = RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED;
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                           RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:102:5: error: implicit declaration of function ‘pthread_mutex_destroy’ [-Werror=implicit-function-declaration]
+  102 |     pthread_mutex_destroy(&hq->lock);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:110:9: error: implicit declaration of function ‘pthread_mutex_unlock’ [-Werror=implicit-function-declaration]
+  110 |         pthread_mutex_unlock(&hq->lock);
+      |         ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:149:44: error: ‘Transition’ undeclared (first use in this function)
+  149 |     automaton->transitions = malloc(sizeof(Transition*) * automaton->transition_capacity);
+      |                                            ^~~~~~~~~~
+<command-line>: error: expected identifier or ‘(’ before string constant
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:11:20: note: in expansion of macro ‘RIFT_VERSION’
+   11 | static const char* RIFT_VERSION = "0.1.0-dsl";
+      |                    ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c: In function ‘rift_tokenizer_resize_token_buffer’:
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_rules.h:8,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_rules.c:8:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:141:14: error: request for member ‘state_capacity’ in something not a structure or union
+  141 |     automaton->state_capacity = 10;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: error: redeclaration of enumerator ‘TOKEN_DSL_COUNT’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c: In function ‘rift_tokenizer_resize_token_buffer’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:125:38: error: ‘PTHREAD_MUTEX_INITIALIZER’ undeclared here (not in a function)
+  125 | static pthread_mutex_t stage_mutex = PTHREAD_MUTEX_INITIALIZER;
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:150:8: error: ‘TokenizerContext’ has no member named ‘current_dfa_state’
+  150 |     ctx->current_dfa_state = NULL;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:102:30: error: invalid use of incomplete typedef ‘HeapQueue’
+  102 |     pthread_mutex_destroy(&hq->lock);
+      |                              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:100:8: error: redefinition of ‘struct DFAStateMachine’
+  100 | struct DFAStateMachine {
+      |        ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:100:8: error: redefinition of ‘struct DFAStateMachine’
+  100 | struct DFAStateMachine {
+      |        ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:110:33: error: invalid use of incomplete typedef ‘HeapQueue’
+  110 |         pthread_mutex_unlock(&hq->lock);
+      |                                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:149:55: error: expected expression before ‘)’ token
+  149 |     automaton->transitions = malloc(sizeof(Transition*) * automaton->transition_capacity);
+      |                                                       ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:106:42: error: ‘RIFT_TOKENIZER_ERROR_MSG_SIZE’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_STATE’?
+  106 |             snprintf(ctx->error_message, RIFT_TOKENIZER_ERROR_MSG_SIZE,
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          RIFT_TOKENIZER_ERROR_STATE
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_rules.h:8,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_rules.c:8:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:142:14: error: request for member ‘states’ in something not a structure or union
+  142 |     automaton->states = malloc(sizeof(State*) * automaton->state_capacity);
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: note: previous definition of ‘TOKEN_DSL_COUNT’ with type ‘enum <anonymous>’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_init’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:111:8: note: originally defined here
+  111 | struct DFAStateMachine {
+      |        ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:153:9: error: implicit declaration of function ‘pthread_mutex_init’ [-Werror=implicit-function-declaration]
+  153 |     if (pthread_mutex_init(&ctx->context_mutex, NULL) != 0) {
+      |         ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘hq_enqueue’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:111:8: note: originally defined here
+  111 | struct DFAStateMachine {
+      |        ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:106:42: error: ‘RIFT_TOKENIZER_ERROR_MSG_SIZE’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_STATE’?
+  106 |             snprintf(ctx->error_message, RIFT_TOKENIZER_ERROR_MSG_SIZE,
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          RIFT_TOKENIZER_ERROR_STATE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘_tokenizer_init_context’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:114:15: error: invalid use of incomplete typedef ‘HeapQueue’
+  114 |     int i = hq->size++;
+      |               ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:150:19: error: request for member ‘transitions’ in something not a structure or union
+  150 |     if (!automaton->transitions) {
+      |                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c: In function ‘R_encode_safe’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:106:42: note: each undeclared identifier is reported only once for each function it appears in
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer.h:5,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_rules.c:9:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: error: redeclaration of enumerator ‘TOKEN_DSL_RULE’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: error: conflicting types for ‘DSLTokenType’; have ‘enum <anonymous>’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:142:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘version’
+  142 |     ctx->version = RIFT_TOKENIZER_VERSION;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:142:39: error: ‘State’ undeclared (first use in this function); did you mean ‘DFAState’?
+  142 |     automaton->states = malloc(sizeof(State*) * automaton->state_capacity);
+      |                                       ^~~~~
+      |                                       DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:153:32: error: ‘TokenizerContext’ has no member named ‘context_mutex’
+  153 |     if (pthread_mutex_init(&ctx->context_mutex, NULL) != 0) {
+      |                                ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:107:5: error: implicit declaration of function ‘pthread_mutex_lock’ [-Werror=implicit-function-declaration]
+  107 |     pthread_mutex_lock(&hq->lock);
+      |     ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c: In function ‘R_encode_safe’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:106:42: note: each undeclared identifier is reported only once for each function it appears in
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:119:38: error: ‘RIFT_TOKENIZER_ERROR_MSG_SIZE’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_STATE’?
+  119 |         snprintf(ctx->error_message, RIFT_TOKENIZER_ERROR_MSG_SIZE,
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                      RIFT_TOKENIZER_ERROR_STATE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:116:23: error: invalid use of incomplete typedef ‘HeapQueue’
+  116 |     while (i > 0 && hq->heap[parent].priority > item.priority) {
+      |                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:125:38: error: ‘PTHREAD_MUTEX_INITIALIZER’ undeclared here (not in a function)
+  125 | static pthread_mutex_t stage_mutex = PTHREAD_MUTEX_INITIALIZER;
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:151:23: error: request for member ‘states’ in something not a structure or union
+  151 |         free(automaton->states);
+      |                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:159:12: error: implicit declaration of function ‘rift_token_create’ [-Werror=implicit-function-declaration]
+  159 |     return rift_token_create((uint8_t)type, mem_ptr, value);
+      |            ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:109:29: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  109 |             ctx->error_code = RIFT_TOKENIZER_ERROR_INVALID_INPUT;
+      |                             ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: note: previous definition of ‘TOKEN_DSL_RULE’ with type ‘enum <anonymous>’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer.h:5,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_rules.c:9:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: error: redeclaration of enumerator ‘TOKEN_DSL_RULE’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: note: previous declaration of ‘DSLTokenType’ with type ‘DSLTokenType’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:143:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘initialized’
+  143 |     ctx->initialized = true;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:142:45: error: expected expression before ‘)’ token
+  142 |     automaton->states = malloc(sizeof(State*) * automaton->state_capacity);
+      |                                             ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:107:27: error: invalid use of incomplete typedef ‘HeapQueue’
+  107 |     pthread_mutex_lock(&hq->lock);
+      |                           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:159:12: error: implicit declaration of function ‘rift_token_create’ [-Werror=implicit-function-declaration]
+  159 |     return rift_token_create((uint8_t)type, mem_ptr, value);
+      |            ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:163:5: error: implicit declaration of function ‘atomic_store’ [-Werror=implicit-function-declaration]
+  163 |     atomic_store(&ctx->thread_safe_mode, false);
+      |     ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:109:29: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  109 |             ctx->error_code = RIFT_TOKENIZER_ERROR_INVALID_INPUT;
+      |                             ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:119:38: note: each undeclared identifier is reported only once for each function it appears in
+gmake[3]: *** [CMakeFiles/rift-stage0-static.dir/build.make:76: CMakeFiles/rift-stage0-static.dir/src/core/rift-0.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:117:11: error: invalid use of incomplete typedef ‘HeapQueue’
+  117 |         hq->heap[i] = hq->heap[parent];
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:121:27: error: ‘RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED’?
+  121 |         ctx->error_code = RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED;
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                           RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_init’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:156:14: error: request for member ‘state_count’ in something not a structure or union
+  156 |     automaton->state_count = 0;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:159:12: error: incompatible types when returning type ‘int’ but ‘TokenTriplet’ was expected
+  159 |     return rift_token_create((uint8_t)type, mem_ptr, value);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: error: redeclaration of enumerator ‘TOKEN_DSL_ACTION’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: note: previous definition of ‘TOKEN_DSL_RULE’ with type ‘enum <anonymous>’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:115:9: error: implicit declaration of function ‘atomic_load’ [-Werror=implicit-function-declaration]
+  115 |     if (atomic_load(&ctx->thread_safe_mode)) {
+      |         ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: error: redeclaration of enumerator ‘DFA_STATE_START’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:144:10: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘thread_count’; did you mean ‘token_count’?
+  144 |     ctx->thread_count = DEFAULT_THREAD_COUNT;
+      |          ^~~~~~~~~~~~
+      |          token_count
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:143:19: error: request for member ‘states’ in something not a structure or union
+  143 |     if (!automaton->states) {
+      |                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:108:11: error: invalid use of incomplete typedef ‘HeapQueue’
+  108 |     if (hq->size == hq->capacity) {
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:159:12: error: incompatible types when returning type ‘int’ but ‘TokenTriplet’ was expected
+  159 |     return rift_token_create((uint8_t)type, mem_ptr, value);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:164:8: error: ‘TokenizerContext’ has no member named ‘owner_thread’
+  164 |     ctx->owner_thread = pthread_self();
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:117:25: error: invalid use of incomplete typedef ‘HeapQueue’
+  117 |         hq->heap[i] = hq->heap[parent];
+      |                         ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:115:9: error: implicit declaration of function ‘atomic_load’ [-Werror=implicit-function-declaration]
+  115 |     if (atomic_load(&ctx->thread_safe_mode)) {
+      |         ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:150:8: error: ‘TokenizerContext’ has no member named ‘current_dfa_state’
+  150 |     ctx->current_dfa_state = NULL;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:142:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘version’
+  142 |     ctx->version = RIFT_TOKENIZER_VERSION;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:157:14: error: request for member ‘transition_count’ in something not a structure or union
+  157 |     automaton->transition_count = 0;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c: In function ‘simple_match’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: note: previous definition of ‘TOKEN_DSL_ACTION’ with type ‘enum <anonymous>’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: error: redeclaration of enumerator ‘TOKEN_DSL_ACTION’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: note: previous definition of ‘DFA_STATE_START’ with type ‘enum <anonymous>’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:148:14: error: request for member ‘transition_capacity’ in something not a structure or union
+  148 |     automaton->transition_capacity = 20;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:116:14: error: implicit declaration of function ‘rift_tokenizer_lock’ [-Werror=implicit-function-declaration]
+  116 |         if (!rift_tokenizer_lock(ctx)) return false;
+      |              ^~~~~~~~~~~~~~~~~~~
+gmake[3]: *** Waiting for unfinished jobs....
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:108:23: error: invalid use of incomplete typedef ‘HeapQueue’
+  108 |     if (hq->size == hq->capacity) {
+      |                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:144:25: error: ‘DEFAULT_THREAD_COUNT’ undeclared (first use in this function)
+  144 |     ctx->thread_count = DEFAULT_THREAD_COUNT;
+      |                         ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c: In function ‘simple_match’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:121:7: error: invalid use of incomplete typedef ‘HeapQueue’
+  121 |     hq->heap[i] = item;
+      |       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:110:9: error: implicit declaration of function ‘pthread_mutex_unlock’ [-Werror=implicit-function-declaration]
+  110 |         pthread_mutex_unlock(&hq->lock);
+      |         ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:164:25: error: implicit declaration of function ‘pthread_self’ [-Werror=implicit-function-declaration]
+  164 |     ctx->owner_thread = pthread_self();
+      |                         ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:116:14: error: implicit declaration of function ‘rift_tokenizer_lock’ [-Werror=implicit-function-declaration]
+  116 |         if (!rift_tokenizer_lock(ctx)) return false;
+      |              ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:143:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘initialized’
+  143 |     ctx->initialized = true;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:153:9: error: implicit declaration of function ‘pthread_mutex_init’ [-Werror=implicit-function-declaration]
+  153 |     if (pthread_mutex_init(&ctx->context_mutex, NULL) != 0) {
+      |         ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:158:14: error: request for member ‘initial_state’ in something not a structure or union
+  158 |     automaton->initial_state = NULL;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:179:9: error: implicit declaration of function ‘isalpha’ [-Werror=implicit-function-declaration]
+  179 |     if (isalpha((unsigned char)*p) || *p == '_') {
+      |         ^~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: error: redeclaration of enumerator ‘TOKEN_DSL_DIRECTIVE’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: note: previous definition of ‘TOKEN_DSL_ACTION’ with type ‘enum <anonymous>’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: error: redeclaration of enumerator ‘DFA_STATE_ACCEPT’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:149:14: error: request for member ‘transitions’ in something not a structure or union
+  149 |     automaton->transitions = malloc(sizeof(Transition*) * automaton->transition_capacity);
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:127:27: error: ‘RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED’?
+  127 |         ctx->error_code = RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED;
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                           RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:144:25: note: each undeclared identifier is reported only once for each function it appears in
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:179:9: error: implicit declaration of function ‘isalpha’ [-Werror=implicit-function-declaration]
+  179 |     if (isalpha((unsigned char)*p) || *p == '_') {
+      |         ^~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:149:44: error: ‘Transition’ undeclared (first use in this function)
+  149 |     automaton->transitions = malloc(sizeof(Transition*) * automaton->transition_capacity);
+      |                                            ^~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:122:29: error: invalid use of incomplete typedef ‘HeapQueue’
+  122 |     pthread_mutex_unlock(&hq->lock);
+      |                             ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:110:33: error: invalid use of incomplete typedef ‘HeapQueue’
+  110 |         pthread_mutex_unlock(&hq->lock);
+      |                                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:168:21: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  168 |     ctx->error_code = RIFT_TOKENIZER_SUCCESS;
+      |                     ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:144:10: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘thread_count’; did you mean ‘token_count’?
+  144 |     ctx->thread_count = DEFAULT_THREAD_COUNT;
+      |          ^~~~~~~~~~~~
+      |          token_count
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:127:27: error: ‘RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED’?
+  127 |         ctx->error_code = RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED;
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                           RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:153:32: error: ‘TokenizerContext’ has no member named ‘context_mutex’
+  153 |     if (pthread_mutex_init(&ctx->context_mutex, NULL) != 0) {
+      |                                ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:159:14: error: request for member ‘current_state’ in something not a structure or union
+  159 |     automaton->current_state = NULL;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:12:1: note: include ‘<ctype.h>’ or provide a declaration of ‘isalpha’
+   11 | #include "rift-0/core/lexer/tokenizer_types.h"
+  +++ |+#include <ctype.h>
+   12 | 
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: note: previous definition of ‘TOKEN_DSL_DIRECTIVE’ with type ‘enum <anonymous>’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: error: redeclaration of enumerator ‘TOKEN_DSL_DIRECTIVE’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: note: previous definition of ‘DFA_STATE_ACCEPT’ with type ‘enum <anonymous>’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:145:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘dual_mode_enabled’
+  145 |     ctx->dual_mode_enabled = true;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:12:1: note: include ‘<ctype.h>’ or provide a declaration of ‘isalpha’
+   11 | #include "rift-0/core/lexer/tokenizer_types.h"
+  +++ |+#include <ctype.h>
+   12 | 
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:149:55: error: expected expression before ‘)’ token
+  149 |     automaton->transitions = malloc(sizeof(Transition*) * automaton->transition_capacity);
+      |                                                       ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:131:13: error: implicit declaration of function ‘rift_tokenizer_unlock’ [-Werror=implicit-function-declaration]
+  131 |             rift_tokenizer_unlock(ctx);
+      |             ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘hq_dequeue’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:114:15: error: invalid use of incomplete typedef ‘HeapQueue’
+  114 |     int i = hq->size++;
+      |               ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘_tokenizer_cleanup_context’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:144:25: error: ‘DEFAULT_THREAD_COUNT’ undeclared (first use in this function)
+  144 |     ctx->thread_count = DEFAULT_THREAD_COUNT;
+      |                         ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:144:25: note: each undeclared identifier is reported only once for each function it appears in
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:131:13: error: implicit declaration of function ‘rift_tokenizer_unlock’ [-Werror=implicit-function-declaration]
+  131 |             rift_tokenizer_unlock(ctx);
+      |             ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:181:16: error: implicit declaration of function ‘isalnum’ [-Werror=implicit-function-declaration]
+  181 |         while (isalnum((unsigned char)p[len]) || p[len] == '_') len++;
+      |                ^~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: error: redeclaration of enumerator ‘TOKEN_DSL_PATTERN’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:163:5: error: implicit declaration of function ‘atomic_store’ [-Werror=implicit-function-declaration]
+  163 |     atomic_store(&ctx->thread_safe_mode, false);
+      |     ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: note: previous definition of ‘TOKEN_DSL_DIRECTIVE’ with type ‘enum <anonymous>’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: error: redeclaration of enumerator ‘DFA_STATE_REJECT’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:146:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘aegis_compliant’
+  146 |     ctx->aegis_compliant = true;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:181:16: error: implicit declaration of function ‘isalnum’ [-Werror=implicit-function-declaration]
+  181 |         while (isalnum((unsigned char)p[len]) || p[len] == '_') len++;
+      |                ^~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:151:16: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘dual_mode_enabled’
+  151 |             ctx->dual_mode_enabled = true;
+      |                ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:150:19: error: request for member ‘transitions’ in something not a structure or union
+  150 |     if (!automaton->transitions) {
+      |                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:126:27: error: invalid use of incomplete typedef ‘HeapQueue’
+  126 |     pthread_mutex_lock(&hq->lock);
+      |                           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:116:23: error: invalid use of incomplete typedef ‘HeapQueue’
+  116 |     while (i > 0 && hq->heap[parent].priority > item.priority) {
+      |                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c: In function ‘rift_tokenizer_resize_pattern_buffer’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:188:13: error: implicit declaration of function ‘rift_regex_destroy’ [-Werror=implicit-function-declaration]
+  188 |             rift_regex_destroy(ctx->regex_patterns[i]);
+      |             ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:145:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘dual_mode_enabled’
+  145 |     ctx->dual_mode_enabled = true;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:181:16: note: include ‘<ctype.h>’ or provide a declaration of ‘isalnum’
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c: In function ‘rift_tokenizer_resize_pattern_buffer’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:197:5: error: implicit declaration of function ‘pthread_mutex_destroy’ [-Werror=implicit-function-declaration]
+  197 |     pthread_mutex_destroy(&ctx->context_mutex);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: note: previous definition of ‘TOKEN_DSL_PATTERN’ with type ‘enum <anonymous>’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:164:24: error: unknown type name ‘RegexAutomaton’
+  164 | void automaton_destroy(RegexAutomaton* automaton) {
+      |                        ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:164:8: error: ‘TokenizerContext’ has no member named ‘owner_thread’
+  164 |     ctx->owner_thread = pthread_self();
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: error: redeclaration of enumerator ‘TOKEN_DSL_PATTERN’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: note: previous definition of ‘DFA_STATE_REJECT’ with type ‘enum <anonymous>’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:181:16: note: include ‘<ctype.h>’ or provide a declaration of ‘isalnum’
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:163:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘stage_data’
+  163 |     ctx->stage_data = NULL;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:151:23: error: request for member ‘states’ in something not a structure or union
+  151 |         free(automaton->states);
+      |                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:127:11: error: invalid use of incomplete typedef ‘HeapQueue’
+  127 |     if (hq->size == 0) {
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:117:11: error: invalid use of incomplete typedef ‘HeapQueue’
+  117 |         hq->heap[i] = hq->heap[parent];
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:164:42: error: ‘RIFT_TOKENIZER_ERROR_MSG_SIZE’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_STATE’?
+  164 |             snprintf(ctx->error_message, RIFT_TOKENIZER_ERROR_MSG_SIZE,
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          RIFT_TOKENIZER_ERROR_STATE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:146:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘aegis_compliant’
+  146 |     ctx->aegis_compliant = true;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:182:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  182 |         *token = rift_token_create(TOKEN_IDENTIFIER, 0, (uint8_t)len);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:164:42: error: ‘RIFT_TOKENIZER_ERROR_MSG_SIZE’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_STATE’?
+  164 |             snprintf(ctx->error_message, RIFT_TOKENIZER_ERROR_MSG_SIZE,
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          RIFT_TOKENIZER_ERROR_STATE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:197:31: error: ‘TokenizerContext’ has no member named ‘context_mutex’
+  197 |     pthread_mutex_destroy(&ctx->context_mutex);
+      |                               ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: error: redeclaration of enumerator ‘TOKEN_DSL_COUNT’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:181:1: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  181 | State* automaton_add_state(RegexAutomaton* automaton, const char* pattern, bool is_final) {
+      | ^~~~~
+      | DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: note: previous definition of ‘TOKEN_DSL_PATTERN’ with type ‘enum <anonymous>’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:164:25: error: implicit declaration of function ‘pthread_self’ [-Werror=implicit-function-declaration]
+  164 |     ctx->owner_thread = pthread_self();
+      |                         ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:182:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  182 |         *token = rift_token_create(TOKEN_IDENTIFIER, 0, (uint8_t)len);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:164:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘next_stage_input’
+  164 |     ctx->next_stage_input = NULL;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:156:14: error: request for member ‘state_count’ in something not a structure or union
+  156 |     automaton->state_count = 0;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:129:33: error: invalid use of incomplete typedef ‘HeapQueue’
+  129 |         pthread_mutex_unlock(&hq->lock);
+      |                                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:117:25: error: invalid use of incomplete typedef ‘HeapQueue’
+  117 |         hq->heap[i] = hq->heap[parent];
+      |                         ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:167:29: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  167 |             ctx->error_code = RIFT_TOKENIZER_ERROR_INVALID_INPUT;
+      |                             ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:151:16: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘dual_mode_enabled’
+  151 |             ctx->dual_mode_enabled = true;
+      |                ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:186:16: error: implicit declaration of function ‘isdigit’ [-Werror=implicit-function-declaration]
+  186 |     } else if (isdigit((unsigned char)*p)) {
+      |                ^~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:167:29: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  167 |             ctx->error_code = RIFT_TOKENIZER_ERROR_INVALID_INPUT;
+      |                             ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: note: previous definition of ‘TOKEN_DSL_COUNT’ with type ‘enum <anonymous>’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: error: redeclaration of enumerator ‘TOKEN_DSL_COUNT’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:168:21: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  168 |     ctx->error_code = RIFT_TOKENIZER_SUCCESS;
+      |                     ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:181:28: error: unknown type name ‘RegexAutomaton’
+  181 | State* automaton_add_state(RegexAutomaton* automaton, const char* pattern, bool is_final) {
+      |                            ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:186:16: error: implicit declaration of function ‘isdigit’ [-Werror=implicit-function-declaration]
+  186 |     } else if (isdigit((unsigned char)*p)) {
+      |                ^~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:167:38: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘version’
+  167 |     printf("  Version: 0x%08x\n", ctx->version);
+      |                                      ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:157:14: error: request for member ‘transition_count’ in something not a structure or union
+  157 |     automaton->transition_count = 0;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:132:19: error: invalid use of incomplete typedef ‘HeapQueue’
+  132 |     Item root = hq->heap[0];
+      |                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:121:7: error: invalid use of incomplete typedef ‘HeapQueue’
+  121 |     hq->heap[i] = item;
+      |       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:182:25: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  182 |         ctx->error_code = RIFT_TOKENIZER_ERROR_INVALID_INPUT;
+      |                         ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:163:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘stage_data’
+  163 |     ctx->stage_data = NULL;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:186:16: note: include ‘<ctype.h>’ or provide a declaration of ‘isdigit’
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:182:25: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  182 |         ctx->error_code = RIFT_TOKENIZER_ERROR_INVALID_INPUT;
+      |                         ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:189:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  189 |         *token = rift_token_create(TOKEN_LITERAL_NUMBER, 0, (uint8_t)len);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: error: conflicting types for ‘DSLTokenType’; have ‘enum <anonymous>’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+<command-line>: error: expected identifier or ‘(’ before string constant
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:11:20: note: in expansion of macro ‘RIFT_VERSION’
+   11 | static const char* RIFT_VERSION = "0.1.0-dsl";
+      |                    ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:209:12: error: implicit declaration of function ‘rift_tokenizer_create_with_capacity’ [-Werror=implicit-function-declaration]
+  209 |     return rift_tokenizer_create_with_capacity(RIFT_TOKENIZER_DEFAULT_CAPACITY,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: note: previous definition of ‘TOKEN_DSL_COUNT’ with type ‘enum <anonymous>’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:186:16: note: include ‘<ctype.h>’ or provide a declaration of ‘isdigit’
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:168:41: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘thread_count’; did you mean ‘token_count’?
+  168 |     printf("  Thread Count: %u\n", ctx->thread_count);
+      |                                         ^~~~~~~~~~~~
+      |                                         token_count
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:158:14: error: request for member ‘initial_state’ in something not a structure or union
+  158 |     automaton->initial_state = NULL;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘_tokenizer_cleanup_context’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:207:31: error: unknown type name ‘RegexAutomaton’
+  207 | bool automaton_add_transition(RegexAutomaton* automaton, State* from, const char* pattern, State* to) {
+      |                               ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:133:19: error: invalid use of incomplete typedef ‘HeapQueue’
+  133 |     Item last = hq->heap[--hq->size];
+      |                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:122:29: error: invalid use of incomplete typedef ‘HeapQueue’
+  122 |     pthread_mutex_unlock(&hq->lock);
+      |                             ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:207:58: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  207 | bool automaton_add_transition(RegexAutomaton* automaton, State* from, const char* pattern, State* to) {
+      |                                                          ^~~~~
+      |                                                          DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:164:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘next_stage_input’
+  164 |     ctx->next_stage_input = NULL;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:195:27: error: ‘RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED’?
+  195 |         ctx->error_code = RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED;
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                           RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:195:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  195 |         *token = rift_token_create(TOKEN_LITERAL_STRING, 0, (uint8_t)len);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: note: previous declaration of ‘DSLTokenType’ with type ‘DSLTokenType’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:195:27: error: ‘RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED’?
+  195 |         ctx->error_code = RIFT_TOKENIZER_ERROR_MEMORY_ALLOCATION_FAILED;
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                           RIFT_TOKENIZER_ERROR_ALLOCATION_FAILED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:209:12: error: returning ‘int’ from a function with return type ‘TokenizerContext *’ makes pointer from integer without a cast [-Werror=int-conversion]
+  209 |     return rift_tokenizer_create_with_capacity(RIFT_TOKENIZER_DEFAULT_CAPACITY,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  210 |                                               RIFT_TOKENIZER_MAX_PATTERNS);
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: error: conflicting types for ‘DSLTokenType’; have ‘enum <anonymous>’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c: In function ‘rift_tokenizer_token_flags_to_string’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:189:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  189 |         *token = rift_token_create(TOKEN_LITERAL_NUMBER, 0, (uint8_t)len);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:169:36: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘dual_mode_enabled’
+  169 |     printf("  Dual Mode: %s\n", ctx->dual_mode_enabled ? "enabled" : "disabled");
+      |                                    ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:195:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  195 |         *token = rift_token_create(TOKEN_LITERAL_STRING, 0, (uint8_t)len);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:159:14: error: request for member ‘current_state’ in something not a structure or union
+  159 |     automaton->current_state = NULL;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:202:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  202 |         *token = rift_token_create(TOKEN_R_PATTERN, 0, (uint8_t)i);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:188:13: error: implicit declaration of function ‘rift_regex_destroy’ [-Werror=implicit-function-declaration]
+  188 |             rift_regex_destroy(ctx->regex_patterns[i]);
+      |             ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:133:30: error: invalid use of incomplete typedef ‘HeapQueue’
+  133 |     Item last = hq->heap[--hq->size];
+      |                              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘hq_dequeue’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:207:92: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  207 | bool automaton_add_transition(RegexAutomaton* automaton, State* from, const char* pattern, State* to) {
+      |                                                                                            ^~~~~
+      |                                                                                            DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:167:38: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘version’
+  167 |     printf("  Version: 0x%08x\n", ctx->version);
+      |                                      ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:202:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  202 |         *token = rift_token_create(TOKEN_R_PATTERN, 0, (uint8_t)i);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: error: redeclaration of enumerator ‘DFA_STATE_START’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: note: previous declaration of ‘DSLTokenType’ with type ‘DSLTokenType’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:350:17: error: ‘TOKEN_FLAG_GLOBAL’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_NONE’?
+  350 |     if (flags & TOKEN_FLAG_GLOBAL) {
+      |                 ^~~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_NONE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:170:42: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘aegis_compliant’
+  170 |     printf("  AEGIS Compliant: %s\n", ctx->aegis_compliant ? "yes" : "no");
+      |                                          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c: In function ‘rift_tokenizer_token_flags_to_string’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:205:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  205 |         *token = rift_token_create(TOKEN_OPERATOR, 0, 1);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:136:22: error: invalid use of incomplete typedef ‘HeapQueue’
+  136 |     while (child < hq->size) {
+      |                      ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:164:24: error: unknown type name ‘RegexAutomaton’
+  164 | void automaton_destroy(RegexAutomaton* automaton) {
+      |                        ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:126:27: error: invalid use of incomplete typedef ‘HeapQueue’
+  126 |     pthread_mutex_lock(&hq->lock);
+      |                           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:197:5: error: implicit declaration of function ‘pthread_mutex_destroy’ [-Werror=implicit-function-declaration]
+  197 |     pthread_mutex_destroy(&ctx->context_mutex);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:181:1: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  181 | State* automaton_add_state(RegexAutomaton* automaton, const char* pattern, bool is_final) {
+      | ^~~~~
+      | DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:168:41: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘thread_count’; did you mean ‘token_count’?
+  168 |     printf("  Thread Count: %u\n", ctx->thread_count);
+      |                                         ^~~~~~~~~~~~
+      |                                         token_count
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:236:1: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  236 | State* automaton_get_next_state(RegexAutomaton* automaton, const char* input) {
+      | ^~~~~
+      | DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:181:28: error: unknown type name ‘RegexAutomaton’
+  181 | State* automaton_add_state(RegexAutomaton* automaton, const char* pattern, bool is_final) {
+      |                            ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:205:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  205 |         *token = rift_token_create(TOKEN_OPERATOR, 0, 1);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: note: previous definition of ‘DFA_STATE_START’ with type ‘enum <anonymous>’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:213:19: error: conflicting types for ‘rift_tokenizer_create_with_capacity’; have ‘TokenizerContext *(size_t,  size_t)’ {aka ‘TokenizerContext *(long unsigned int,  long unsigned int)’}
+  213 | TokenizerContext* rift_tokenizer_create_with_capacity(size_t token_capacity,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: error: redeclaration of enumerator ‘DFA_STATE_START’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+gmake[3]: *** [CMakeFiles/rift-stage0.dir/build.make:76: CMakeFiles/rift-stage0.dir/src/core/rift-0.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_process’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:350:17: error: ‘TOKEN_FLAG_GLOBAL’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_NONE’?
+  350 |     if (flags & TOKEN_FLAG_GLOBAL) {
+      |                 ^~~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_NONE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:208:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  208 |         *token = rift_token_create(TOKEN_DELIMITER, 0, 1);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:356:17: error: ‘TOKEN_FLAG_MULTILINE’ undeclared (first use in this function)
+  356 |     if (flags & TOKEN_FLAG_MULTILINE) {
+      |                 ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:137:27: error: invalid use of incomplete typedef ‘HeapQueue’
+  137 |         if (child + 1 < hq->size && hq->heap[child + 1].priority < hq->heap[child].priority) {
+      |                           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:127:11: error: invalid use of incomplete typedef ‘HeapQueue’
+  127 |     if (hq->size == 0) {
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:197:31: error: ‘TokenizerContext’ has no member named ‘context_mutex’
+  197 |     pthread_mutex_destroy(&ctx->context_mutex);
+      |                               ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:169:36: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘dual_mode_enabled’
+  169 |     printf("  Dual Mode: %s\n", ctx->dual_mode_enabled ? "enabled" : "disabled");
+      |                                    ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:236:33: error: unknown type name ‘RegexAutomaton’
+  236 | State* automaton_get_next_state(RegexAutomaton* automaton, const char* input) {
+      |                                 ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:208:18: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  208 |         *token = rift_token_create(TOKEN_DELIMITER, 0, 1);
+      |                  ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: error: redeclaration of enumerator ‘DFA_STATE_ACCEPT’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+gmake[3]: *** Waiting for unfinished jobs....
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:207:31: error: unknown type name ‘RegexAutomaton’
+  207 | bool automaton_add_transition(RegexAutomaton* automaton, State* from, const char* pattern, State* to) {
+      |                               ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:209:12: note: previous implicit declaration of ‘rift_tokenizer_create_with_capacity’ with type ‘int()’
+  209 |     return rift_tokenizer_create_with_capacity(RIFT_TOKENIZER_DEFAULT_CAPACITY,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: note: previous definition of ‘DFA_STATE_START’ with type ‘enum <anonymous>’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:192:21: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘initialized’
+  192 |     if (!ctx || !ctx->initialized || !input || !output) {
+      |                     ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:211:14: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  211 |     *token = rift_token_create(TOKEN_UNKNOWN, 0, 1);
+      |              ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:137:39: error: invalid use of incomplete typedef ‘HeapQueue’
+  137 |         if (child + 1 < hq->size && hq->heap[child + 1].priority < hq->heap[child].priority) {
+      |                                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:129:33: error: invalid use of incomplete typedef ‘HeapQueue’
+  129 |         pthread_mutex_unlock(&hq->lock);
+      |                                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:356:17: error: ‘TOKEN_FLAG_MULTILINE’ undeclared (first use in this function)
+  356 |     if (flags & TOKEN_FLAG_MULTILINE) {
+      |                 ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:362:17: error: ‘TOKEN_FLAG_IGNORECASE’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_NONE’?
+  362 |     if (flags & TOKEN_FLAG_IGNORECASE) {
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_NONE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:170:42: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘aegis_compliant’
+  170 |     printf("  AEGIS Compliant: %s\n", ctx->aegis_compliant ? "yes" : "no");
+      |                                          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:251:1: error: unknown type name ‘IRGenerator’
+  251 | IRGenerator* ir_generator_create(RegexAutomaton* automaton) {
+      | ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:211:14: error: incompatible types when assigning to type ‘TokenTriplet’ from type ‘int’
+  211 |     *token = rift_token_create(TOKEN_UNKNOWN, 0, 1);
+      |              ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: note: previous definition of ‘DFA_STATE_ACCEPT’ with type ‘enum <anonymous>’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c: In function ‘match_token_pattern_ex’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:207:58: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  207 | bool automaton_add_transition(RegexAutomaton* automaton, State* from, const char* pattern, State* to) {
+      |                                                          ^~~~~
+      |                                                          DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: error: redeclaration of enumerator ‘DFA_STATE_ACCEPT’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_reset’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:207:92: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  207 | bool automaton_add_transition(RegexAutomaton* automaton, State* from, const char* pattern, State* to) {
+      |                                                                                            ^~~~~
+      |                                                                                            DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:137:70: error: invalid use of incomplete typedef ‘HeapQueue’
+  137 |         if (child + 1 < hq->size && hq->heap[child + 1].priority < hq->heap[child].priority) {
+      |                                                                      ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c: In function ‘match_token_pattern_ex’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:196:5: error: implicit declaration of function ‘pthread_mutex_lock’ [-Werror=implicit-function-declaration]
+  196 |     pthread_mutex_lock(&stage_mutex);
+      |     ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:132:19: error: invalid use of incomplete typedef ‘HeapQueue’
+  132 |     Item root = hq->heap[0];
+      |                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_process’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:209:12: error: implicit declaration of function ‘rift_tokenizer_create_with_capacity’ [-Werror=implicit-function-declaration]
+  209 |     return rift_tokenizer_create_with_capacity(RIFT_TOKENIZER_DEFAULT_CAPACITY,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:362:17: error: ‘TOKEN_FLAG_IGNORECASE’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_NONE’?
+  362 |     if (flags & TOKEN_FLAG_IGNORECASE) {
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_NONE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:368:17: error: ‘TOKEN_FLAG_TOPDOWN’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_TRUSTED’?
+  368 |     if (flags & TOKEN_FLAG_TOPDOWN) {
+      |                 ^~~~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_TRUSTED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:251:34: error: unknown type name ‘RegexAutomaton’
+  251 | IRGenerator* ir_generator_create(RegexAutomaton* automaton) {
+      |                                  ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: error: redeclaration of enumerator ‘DFA_STATE_REJECT’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:224:11: error: ‘PatternMatchResult’ has no member named ‘token’
+  224 |     result->token = t;
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:269:27: error: unknown type name ‘IRGenerator’
+  269 | void ir_generator_destroy(IRGenerator* generator) {
+      |                           ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: note: previous definition of ‘DFA_STATE_ACCEPT’ with type ‘enum <anonymous>’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:244:9: error: implicit declaration of function ‘atomic_load’ [-Werror=implicit-function-declaration]
+  244 |     if (atomic_load(&ctx->thread_safe_mode)) {
+      |         ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:282:1: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  282 | TokenNode* ir_generator_process_token(IRGenerator* generator, const char* token) {
+      | ^~~~~~~~~
+      | TokenType
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:236:1: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  236 | State* automaton_get_next_state(RegexAutomaton* automaton, const char* input) {
+      | ^~~~~
+      | DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:140:32: error: invalid use of incomplete typedef ‘HeapQueue’
+  140 |         if (last.priority <= hq->heap[child].priority) {
+      |                                ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:224:11: error: ‘PatternMatchResult’ has no member named ‘token’
+  224 |     result->token = t;
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:133:19: error: invalid use of incomplete typedef ‘HeapQueue’
+  133 |     Item last = hq->heap[--hq->size];
+      |                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:192:21: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘initialized’
+  192 |     if (!ctx || !ctx->initialized || !input || !output) {
+      |                     ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:203:9: error: implicit declaration of function ‘pthread_mutex_unlock’ [-Werror=implicit-function-declaration]
+  203 |         pthread_mutex_unlock(&stage_mutex);
+      |         ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:209:12: error: returning ‘int’ from a function with return type ‘TokenizerContext *’ makes pointer from integer without a cast [-Werror=int-conversion]
+  209 |     return rift_tokenizer_create_with_capacity(RIFT_TOKENIZER_DEFAULT_CAPACITY,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  210 |                                               RIFT_TOKENIZER_MAX_PATTERNS);
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:221:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘version’
+  221 |         ctx->version, ctx->thread_count,
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: note: previous definition of ‘DFA_STATE_REJECT’ with type ‘enum <anonymous>’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:368:17: error: ‘TOKEN_FLAG_TOPDOWN’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_TRUSTED’?
+  368 |     if (flags & TOKEN_FLAG_TOPDOWN) {
+      |                 ^~~~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_TRUSTED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:374:17: error: ‘TOKEN_FLAG_BOTTOMUP’ undeclared (first use in this function)
+  374 |     if (flags & TOKEN_FLAG_BOTTOMUP) {
+      |                 ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:226:11: error: ‘PatternMatchResult’ has no member named ‘success’
+  226 |     result->success = len > 0;
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: error: redeclaration of enumerator ‘DFA_STATE_REJECT’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:245:14: error: implicit declaration of function ‘rift_tokenizer_lock’; did you mean ‘rift_tokenizer_reset’? [-Werror=implicit-function-declaration]
+  245 |         if (!rift_tokenizer_lock(ctx)) return false;
+      |              ^~~~~~~~~~~~~~~~~~~
+      |              rift_tokenizer_reset
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:143:11: error: invalid use of incomplete typedef ‘HeapQueue’
+  143 |         hq->heap[i] = hq->heap[child];
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:282:39: error: unknown type name ‘IRGenerator’
+  282 | TokenNode* ir_generator_process_token(IRGenerator* generator, const char* token) {
+      |                                       ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:226:11: error: ‘PatternMatchResult’ has no member named ‘success’
+  226 |     result->success = len > 0;
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:236:33: error: unknown type name ‘RegexAutomaton’
+  236 | State* automaton_get_next_state(RegexAutomaton* automaton, const char* input) {
+      |                                 ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:133:30: error: invalid use of incomplete typedef ‘HeapQueue’
+  133 |     Item last = hq->heap[--hq->size];
+      |                              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:196:5: error: implicit declaration of function ‘pthread_mutex_lock’ [-Werror=implicit-function-declaration]
+  196 |     pthread_mutex_lock(&stage_mutex);
+      |     ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:221:28: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘thread_count’; did you mean ‘token_count’?
+  221 |         ctx->version, ctx->thread_count,
+      |                            ^~~~~~~~~~~~
+      |                            token_count
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:227:11: error: ‘PatternMatchResult’ has no member named ‘error_msg’
+  227 |     result->error_msg = NULL;
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: note: previous definition of ‘DFA_STATE_REJECT’ with type ‘enum <anonymous>’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:374:17: error: ‘TOKEN_FLAG_BOTTOMUP’ undeclared (first use in this function)
+  374 |     if (flags & TOKEN_FLAG_BOTTOMUP) {
+      |                 ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:380:17: error: ‘TOKEN_FLAG_COMPOSED’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_VERIFIED’?
+  380 |     if (flags & TOKEN_FLAG_COMPOSED) {
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_VERIFIED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:253:8: error: ‘TokenizerContext’ has no member named ‘current_dfa_state’
+  253 |     ctx->current_dfa_state = NULL;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:143:25: error: invalid use of incomplete typedef ‘HeapQueue’
+  143 |         hq->heap[i] = hq->heap[child];
+      |                         ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:227:11: error: ‘PatternMatchResult’ has no member named ‘error_msg’
+  227 |     result->error_msg = NULL;
+      |           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:136:22: error: invalid use of incomplete typedef ‘HeapQueue’
+  136 |     while (child < hq->size) {
+      |                      ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:213:19: error: conflicting types for ‘rift_tokenizer_create_with_capacity’; have ‘TokenizerContext *(size_t,  size_t)’ {aka ‘TokenizerContext *(long unsigned int,  long unsigned int)’}
+  213 | TokenizerContext* rift_tokenizer_create_with_capacity(size_t token_capacity,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:251:1: error: unknown type name ‘IRGenerator’
+  251 | IRGenerator* ir_generator_create(RegexAutomaton* automaton) {
+      | ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:222:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘aegis_compliant’
+  222 |         ctx->aegis_compliant ? "true" : "false",
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:203:9: error: implicit declaration of function ‘pthread_mutex_unlock’ [-Werror=implicit-function-declaration]
+  203 |         pthread_mutex_unlock(&stage_mutex);
+      |         ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:257:21: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  257 |     ctx->error_code = RIFT_TOKENIZER_SUCCESS;
+      |                     ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c: In function ‘R_encode_safe’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:147:7: error: invalid use of incomplete typedef ‘HeapQueue’
+  147 |     hq->heap[i] = last;
+      |       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:380:17: error: ‘TOKEN_FLAG_COMPOSED’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_VERIFIED’?
+  380 |     if (flags & TOKEN_FLAG_COMPOSED) {
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_VERIFIED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:386:17: error: ‘TOKEN_FLAG_VALIDATED’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_VERIFIED’?
+  386 |     if (flags & TOKEN_FLAG_VALIDATED) {
+      |                 ^~~~~~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_VERIFIED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:137:27: error: invalid use of incomplete typedef ‘HeapQueue’
+  137 |         if (child + 1 < hq->size && hq->heap[child + 1].priority < hq->heap[child].priority) {
+      |                           ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:209:12: note: previous implicit declaration of ‘rift_tokenizer_create_with_capacity’ with type ‘int()’
+  209 |     return rift_tokenizer_create_with_capacity(RIFT_TOKENIZER_DEFAULT_CAPACITY,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c: In function ‘R_encode_safe’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_rules.c:58:8: error: redefinition of ‘struct DFAStateMachine’
+   58 | struct DFAStateMachine {
+      |        ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:223:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘dual_mode_enabled’
+  223 |         ctx->dual_mode_enabled ? "true" : "false");
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:251:34: error: unknown type name ‘RegexAutomaton’
+  251 | IRGenerator* ir_generator_create(RegexAutomaton* automaton) {
+      |                                  ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:221:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘version’
+  221 |         ctx->version, ctx->thread_count,
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:160:1: warning: control reaches end of non-void function [-Wreturn-type]
+  160 | }
+      | ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:148:29: error: invalid use of incomplete typedef ‘HeapQueue’
+  148 |     pthread_mutex_unlock(&hq->lock);
+      |                             ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:265:9: error: implicit declaration of function ‘rift_tokenizer_unlock’; did you mean ‘rift_tokenizer_reset’? [-Werror=implicit-function-declaration]
+  265 |         rift_tokenizer_unlock(ctx);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+      |         rift_tokenizer_reset
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:137:39: error: invalid use of incomplete typedef ‘HeapQueue’
+  137 |         if (child + 1 < hq->size && hq->heap[child + 1].priority < hq->heap[child].priority) {
+      |                                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:386:17: error: ‘TOKEN_FLAG_VALIDATED’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_VERIFIED’?
+  386 |     if (flags & TOKEN_FLAG_VALIDATED) {
+      |                 ^~~~~~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_VERIFIED
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_match.c:160:1: warning: control reaches end of non-void function [-Wreturn-type]
+  160 | }
+      | ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:392:17: error: ‘TOKEN_FLAG_ERROR’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_NONE’?
+  392 |     if (flags & TOKEN_FLAG_ERROR) {
+      |                 ^~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_NONE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:111:8: note: originally defined here
+  111 | struct DFAStateMachine {
+      |        ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_rules.c:58:8: error: redefinition of ‘struct DFAStateMachine’
+   58 | struct DFAStateMachine {
+      |        ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_reset’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_validate’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:221:28: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘thread_count’; did you mean ‘token_count’?
+  221 |         ctx->version, ctx->thread_count,
+      |                            ^~~~~~~~~~~~
+      |                            token_count
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:269:27: error: unknown type name ‘IRGenerator’
+  269 | void ir_generator_destroy(IRGenerator* generator) {
+      |                           ^~~~~~~~~~~
+gmake[3]: *** [CMakeFiles/rift-stage0-static.dir/build.make:90: CMakeFiles/rift-stage0-static.dir/src/core/lexer/lexer.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:137:70: error: invalid use of incomplete typedef ‘HeapQueue’
+  137 |         if (child + 1 < hq->size && hq->heap[child + 1].priority < hq->heap[child].priority) {
+      |                                                                      ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_process_with_flags’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:392:17: error: ‘TOKEN_FLAG_ERROR’ undeclared (first use in this function); did you mean ‘TOKEN_FLAG_NONE’?
+  392 |     if (flags & TOKEN_FLAG_ERROR) {
+      |                 ^~~~~~~~~~~~~~~~
+      |                 TOKEN_FLAG_NONE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:111:8: note: originally defined here
+  111 | struct DFAStateMachine {
+      |        ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c: In function ‘rift_tokenizer_print_token’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:244:9: error: implicit declaration of function ‘atomic_load’ [-Werror=implicit-function-declaration]
+  244 |     if (atomic_load(&ctx->thread_safe_mode)) {
+      |         ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:239:21: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘initialized’
+  239 |     if (!ctx || !ctx->initialized) {
+      |                     ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:222:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘aegis_compliant’
+  222 |         ctx->aegis_compliant ? "true" : "false",
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:282:1: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  282 | TokenNode* ir_generator_process_token(IRGenerator* generator, const char* token) {
+      | ^~~~~~~~~
+      | TokenType
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:153:21: error: unknown type name ‘LexerContext’; did you mean ‘TokenizerContext’?
+  153 | void lexer_set_flag(LexerContext* ctx, LexerFlags flag) {
+      |                     ^~~~~~~~~~~~
+      |                     TokenizerContext
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:140:32: error: invalid use of incomplete typedef ‘HeapQueue’
+  140 |         if (last.priority <= hq->heap[child].priority) {
+      |                                ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:279:42: error: ‘RIFT_TOKENIZER_ERROR_MSG_SIZE’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_STATE’?
+  279 |             snprintf(ctx->error_message, RIFT_TOKENIZER_ERROR_MSG_SIZE,
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          RIFT_TOKENIZER_ERROR_STATE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c: In function ‘rift_tokenizer_print_token’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:406:28: error: implicit declaration of function ‘rift_tokenizer_token_type_to_string’; did you mean ‘rift_tokenizer_token_flags_to_string’? [-Werror=implicit-function-declaration]
+  406 |     const char* type_str = rift_tokenizer_token_type_to_string(
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                            rift_tokenizer_token_flags_to_string
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:246:13: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘aegis_compliant’
+  246 |     if (!ctx->aegis_compliant) {
+      |             ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:245:14: error: implicit declaration of function ‘rift_tokenizer_lock’; did you mean ‘rift_tokenizer_reset’? [-Werror=implicit-function-declaration]
+  245 |         if (!rift_tokenizer_lock(ctx)) return false;
+      |              ^~~~~~~~~~~~~~~~~~~
+      |              rift_tokenizer_reset
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:223:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘dual_mode_enabled’
+  223 |         ctx->dual_mode_enabled ? "true" : "false");
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:282:39: error: unknown type name ‘IRGenerator’
+  282 | TokenNode* ir_generator_process_token(IRGenerator* generator, const char* token) {
+      |                                       ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:143:11: error: invalid use of incomplete typedef ‘HeapQueue’
+  143 |         hq->heap[i] = hq->heap[child];
+      |           ^~
+cc1: some warnings being treated as errors
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:153:40: error: unknown type name ‘LexerFlags’
+  153 | void lexer_set_flag(LexerContext* ctx, LexerFlags flag) {
+      |                                        ^~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:282:29: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  282 |             ctx->error_code = RIFT_TOKENIZER_ERROR_INVALID_INPUT;
+      |                             ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:406:28: error: implicit declaration of function ‘rift_tokenizer_token_type_to_string’; did you mean ‘rift_tokenizer_token_flags_to_string’? [-Werror=implicit-function-declaration]
+  406 |     const char* type_str = rift_tokenizer_token_type_to_string(
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                            rift_tokenizer_token_flags_to_string
+cc1: some warnings being treated as errors
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:406:28: error: initialization of ‘const char *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:253:8: error: ‘TokenizerContext’ has no member named ‘current_dfa_state’
+  253 |     ctx->current_dfa_state = NULL;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:248:16: error: ‘RIFT_TOKENIZER_ERROR_VALIDATION’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_INVALID_STATE’?
+  248 |         return RIFT_TOKENIZER_ERROR_VALIDATION;
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                RIFT_TOKENIZER_ERROR_INVALID_STATE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_validate’:
+gmake[3]: *** [CMakeFiles/rift-stage0.dir/build.make:146: CMakeFiles/rift-stage0.dir/src/core/lexer/tokenizer_match.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:143:25: error: invalid use of incomplete typedef ‘HeapQueue’
+  143 |         hq->heap[i] = hq->heap[child];
+      |                         ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:406:28: error: initialization of ‘const char *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:157:23: error: unknown type name ‘LexerContext’; did you mean ‘TokenizerContext’?
+  157 | void lexer_clear_flag(LexerContext* ctx, LexerFlags flag) {
+      |                       ^~~~~~~~~~~~
+      |                       TokenizerContext
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:305:5: error: implicit declaration of function ‘clock_gettime’ [-Werror=implicit-function-declaration]
+  305 |     clock_gettime(CLOCK_MONOTONIC, &start_time);
+      |     ^~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:257:21: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  257 |     ctx->error_code = RIFT_TOKENIZER_SUCCESS;
+      |                     ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:252:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘version’
+  252 |     if (ctx->version != RIFT_TOKENIZER_VERSION) {
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:239:21: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘initialized’
+  239 |     if (!ctx || !ctx->initialized) {
+      |                     ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:147:7: error: invalid use of incomplete typedef ‘HeapQueue’
+  147 |     hq->heap[i] = last;
+      |       ^~
+gmake[3]: *** [CMakeFiles/rift-stage0-static.dir/build.make:146: CMakeFiles/rift-stage0-static.dir/src/core/lexer/tokenizer_match.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c: In function ‘rift_tokenizer_benchmark_processing’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:157:42: error: unknown type name ‘LexerFlags’
+  157 | void lexer_clear_flag(LexerContext* ctx, LexerFlags flag) {
+      |                                          ^~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:258:14: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘thread_count’; did you mean ‘token_count’?
+  258 |     if (ctx->thread_count == 0 || ctx->thread_count > 128) {
+      |              ^~~~~~~~~~~~
+      |              token_count
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c: In function ‘rift_tokenizer_benchmark_processing’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:246:13: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘aegis_compliant’
+  246 |     if (!ctx->aegis_compliant) {
+      |             ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:305:19: error: ‘CLOCK_MONOTONIC’ undeclared (first use in this function)
+  305 |     clock_gettime(CLOCK_MONOTONIC, &start_time);
+      |                   ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:265:9: error: implicit declaration of function ‘rift_tokenizer_unlock’; did you mean ‘rift_tokenizer_reset’? [-Werror=implicit-function-declaration]
+  265 |         rift_tokenizer_unlock(ctx);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+      |         rift_tokenizer_reset
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:148:29: error: invalid use of incomplete typedef ‘HeapQueue’
+  148 |     pthread_mutex_unlock(&hq->lock);
+      |                             ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:513:9: error: implicit declaration of function ‘rift_tokenizer_reset’; did you mean ‘rift_tokenizer_dump_state’? [-Werror=implicit-function-declaration]
+  513 |         rift_tokenizer_reset(ctx);
+      |         ^~~~~~~~~~~~~~~~~~~~
+      |         rift_tokenizer_dump_state
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:161:31: error: unknown type name ‘LexerContext’
+  161 | bool lexer_flag_enabled(const LexerContext* ctx, LexerFlags flag) {
+      |                               ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_process_with_flags’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:258:40: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘thread_count’; did you mean ‘token_count’?
+  258 |     if (ctx->thread_count == 0 || ctx->thread_count > 128) {
+      |                                        ^~~~~~~~~~~~
+      |                                        token_count
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:515:9: error: implicit declaration of function ‘clock_gettime’ [-Werror=implicit-function-declaration]
+  515 |         clock_gettime(CLOCK_MONOTONIC, &start);
+      |         ^~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:513:9: error: implicit declaration of function ‘rift_tokenizer_reset’; did you mean ‘rift_tokenizer_dump_state’? [-Werror=implicit-function-declaration]
+  513 |         rift_tokenizer_reset(ctx);
+      |         ^~~~~~~~~~~~~~~~~~~~
+      |         rift_tokenizer_dump_state
+gmake[3]: *** [CMakeFiles/rift-stage0.dir/build.make:90: CMakeFiles/rift-stage0.dir/src/core/lexer/lexer.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:248:16: error: ‘RIFT_TOKENIZER_ERROR_VALIDATION’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_INVALID_STATE’?
+  248 |         return RIFT_TOKENIZER_ERROR_VALIDATION;
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                RIFT_TOKENIZER_ERROR_INVALID_STATE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:308:22: error: implicit declaration of function ‘rift_rules_apply_all’ [-Werror=implicit-function-declaration]
+  308 |     ssize_t result = rift_rules_apply_all(ctx, input, length);
+      |                      ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:515:9: error: implicit declaration of function ‘clock_gettime’ [-Werror=implicit-function-declaration]
+  515 |         clock_gettime(CLOCK_MONOTONIC, &start);
+      |         ^~~~~~~~~~~~~
+gmake[3]: *** [CMakeFiles/rift-stage0-static.dir/build.make:132: CMakeFiles/rift-stage0-static.dir/src/core/lexer/tokenizer_rules.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:279:42: error: ‘RIFT_TOKENIZER_ERROR_MSG_SIZE’ undeclared (first use in this function); did you mean ‘RIFT_TOKENIZER_ERROR_STATE’?
+  279 |             snprintf(ctx->error_message, RIFT_TOKENIZER_ERROR_MSG_SIZE,
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          RIFT_TOKENIZER_ERROR_STATE
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:161:50: error: unknown type name ‘LexerFlags’
+  161 | bool lexer_flag_enabled(const LexerContext* ctx, LexerFlags flag) {
+      |                                                  ^~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_cleanup’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:515:23: error: ‘CLOCK_MONOTONIC’ undeclared (first use in this function)
+  515 |         clock_gettime(CLOCK_MONOTONIC, &start);
+      |                       ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:252:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘version’
+  252 |     if (ctx->version != RIFT_TOKENIZER_VERSION) {
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:153:21: error: unknown type name ‘LexerContext’; did you mean ‘TokenizerContext’?
+  153 | void lexer_set_flag(LexerContext* ctx, LexerFlags flag) {
+      |                     ^~~~~~~~~~~~
+      |                     TokenizerContext
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_set_thread_safe_mode’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:282:29: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  282 |             ctx->error_code = RIFT_TOKENIZER_ERROR_INVALID_INPUT;
+      |                             ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:515:23: error: ‘CLOCK_MONOTONIC’ undeclared (first use in this function)
+  515 |         clock_gettime(CLOCK_MONOTONIC, &start);
+      |                       ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:277:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘stage_data’
+  277 |     if (ctx->stage_data) {
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:167:1: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  167 | TokenNode* token_create(TokenType type, const char* value, size_t length) {
+      | ^~~~~~~~~
+      | TokenType
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:258:14: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘thread_count’; did you mean ‘token_count’?
+  258 |     if (ctx->thread_count == 0 || ctx->thread_count > 128) {
+      |              ^~~~~~~~~~~~
+      |              token_count
+gmake[3]: *** [CMakeFiles/rift-stage0.dir/build.make:132: CMakeFiles/rift-stage0.dir/src/core/lexer/tokenizer_rules.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:426:12: error: ‘TokenizerContext’ has no member named ‘owner_thread’
+  426 |         ctx->owner_thread = pthread_self();
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:516:26: error: implicit declaration of function ‘rift_tokenizer_process’; did you mean ‘rift_tokenizer_print_token’? [-Werror=implicit-function-declaration]
+  516 |         ssize_t result = rift_tokenizer_process(ctx, test_input, input_length);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~
+      |                          rift_tokenizer_print_token
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:153:40: error: unknown type name ‘LexerFlags’
+  153 | void lexer_set_flag(LexerContext* ctx, LexerFlags flag) {
+      |                                        ^~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:278:17: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘stage_data’
+  278 |         free(ctx->stage_data);
+      |                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:305:5: error: implicit declaration of function ‘clock_gettime’ [-Werror=implicit-function-declaration]
+  305 |     clock_gettime(CLOCK_MONOTONIC, &start_time);
+      |     ^~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:258:40: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘thread_count’; did you mean ‘token_count’?
+  258 |     if (ctx->thread_count == 0 || ctx->thread_count > 128) {
+      |                                        ^~~~~~~~~~~~
+      |                                        token_count
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer_utilities.c:516:26: error: implicit declaration of function ‘rift_tokenizer_process’; did you mean ‘rift_tokenizer_print_token’? [-Werror=implicit-function-declaration]
+  516 |         ssize_t result = rift_tokenizer_process(ctx, test_input, input_length);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~
+      |                          rift_tokenizer_print_token
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘token_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_clear_error’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:279:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘stage_data’
+  279 |         ctx->stage_data = NULL;
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:157:23: error: unknown type name ‘LexerContext’; did you mean ‘TokenizerContext’?
+  157 | void lexer_clear_flag(LexerContext* ctx, LexerFlags flag) {
+      |                       ^~~~~~~~~~~~
+      |                       TokenizerContext
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_cleanup’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:168:5: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  168 |     TokenNode* token = (TokenNode*)malloc(sizeof(TokenNode));
+      |     ^~~~~~~~~
+      |     TokenType
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:157:42: error: unknown type name ‘LexerFlags’
+  157 | void lexer_clear_flag(LexerContext* ctx, LexerFlags flag) {
+      |                                          ^~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:305:19: error: ‘CLOCK_MONOTONIC’ undeclared (first use in this function)
+  305 |     clock_gettime(CLOCK_MONOTONIC, &start_time);
+      |                   ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:455:21: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  455 |     ctx->error_code = RIFT_TOKENIZER_SUCCESS;
+      |                     ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:282:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘next_stage_input’
+  282 |     if (ctx->next_stage_input) {
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:277:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘stage_data’
+  277 |     if (ctx->stage_data) {
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:161:31: error: unknown type name ‘LexerContext’
+  161 | bool lexer_flag_enabled(const LexerContext* ctx, LexerFlags flag) {
+      |                               ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:168:25: error: ‘TokenNode’ undeclared (first use in this function); did you mean ‘TokenType’?
+  168 |     TokenNode* token = (TokenNode*)malloc(sizeof(TokenNode));
+      |                         ^~~~~~~~~
+      |                         TokenType
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:308:22: error: implicit declaration of function ‘rift_rules_apply_all’ [-Werror=implicit-function-declaration]
+  308 |     ssize_t result = rift_rules_apply_all(ctx, input, length);
+      |                      ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:283:17: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘next_stage_input’
+  283 |         free(ctx->next_stage_input);
+      |                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:278:17: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘stage_data’
+  278 |         free(ctx->stage_data);
+      |                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_token_type_to_string’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:168:25: note: each undeclared identifier is reported only once for each function it appears in
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:161:50: error: unknown type name ‘LexerFlags’
+  161 | bool lexer_flag_enabled(const LexerContext* ctx, LexerFlags flag) {
+      |                                                  ^~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:284:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘next_stage_input’
+  284 |         ctx->next_stage_input = NULL;
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:22:14: warning: ISO C forbids forward references to ‘enum’ types [-Wpedantic]
+   22 | typedef enum TokenType RiftTokenType;
+      |              ^~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:279:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘stage_data’
+  279 |         ctx->stage_data = NULL;
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_set_thread_safe_mode’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:476:14: error: ‘TOKEN_PUNCTUATION’ undeclared (first use in this function)
+  476 |         case TOKEN_PUNCTUATION: return "PUNCTUATION";
+      |              ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:168:35: error: expected expression before ‘)’ token
+  168 |     TokenNode* token = (TokenNode*)malloc(sizeof(TokenNode));
+      |                                   ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:288:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘initialized’
+  288 |     ctx->initialized = false;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:167:1: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  167 | TokenNode* token_create(TokenType type, const char* value, size_t length) {
+      | ^~~~~~~~~
+      | TokenType
+cc1: some warnings being treated as errors
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:282:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘next_stage_input’
+  282 |     if (ctx->next_stage_input) {
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:426:12: error: ‘TokenizerContext’ has no member named ‘owner_thread’
+  426 |         ctx->owner_thread = pthread_self();
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:477:9: error: duplicate case value
+  477 |         case TOKEN_DELIMITER: return "DELIMITER";
+      |         ^~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:169:10: error: request for member ‘type’ in something not a structure or union
+  169 |     token->type = type;
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:289:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘aegis_compliant’
+  289 |     ctx->aegis_compliant = false;
+      |        ^~
+cc1: some warnings being treated as errors
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘token_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:283:17: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘next_stage_input’
+  283 |         free(ctx->next_stage_input);
+      |                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_clear_error’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:475:9: note: previously used here
+  475 |         case TOKEN_OPERATOR: return "OPERATOR";
+      |         ^~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:170:10: error: request for member ‘length’ in something not a structure or union
+  170 |     token->length = length;
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:290:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘version’
+  290 |     ctx->version = 0;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:168:5: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  168 |     TokenNode* token = (TokenNode*)malloc(sizeof(TokenNode));
+      |     ^~~~~~~~~
+      |     TokenType
+gmake[3]: *** [CMakeFiles/rift-stage0.dir/build.make:160: CMakeFiles/rift-stage0.dir/src/core/lexer/tokenizer_utilities.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:284:12: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘next_stage_input’
+  284 |         ctx->next_stage_input = NULL;
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:455:21: warning: implicit conversion from ‘enum <anonymous>’ to ‘TokenizerErrorCode’ [-Wenum-conversion]
+  455 |     ctx->error_code = RIFT_TOKENIZER_SUCCESS;
+      |                     ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:171:10: error: request for member ‘value’ in something not a structure or union
+  171 |     token->value = (char*)malloc(length + 1);
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:481:14: error: ‘TOKEN_REGEX_START’ undeclared (first use in this function)
+  481 |         case TOKEN_REGEX_START: return "REGEX_START";
+      |              ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_destroy’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:168:25: error: ‘TokenNode’ undeclared (first use in this function); did you mean ‘TokenType’?
+  168 |     TokenNode* token = (TokenNode*)malloc(sizeof(TokenNode));
+      |                         ^~~~~~~~~
+      |                         TokenType
+gmake[3]: *** [CMakeFiles/rift-stage0-static.dir/build.make:160: CMakeFiles/rift-stage0-static.dir/src/core/lexer/tokenizer_utilities.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:288:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘initialized’
+  288 |     ctx->initialized = false;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:172:17: error: request for member ‘value’ in something not a structure or union
+  172 |     memcpy(token->value, value, length);
+      |                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:378:12: error: ‘TokenizerContext’ has no member named ‘compositions’
+  378 |     if (ctx->compositions) {
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_token_type_to_string’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:168:25: note: each undeclared identifier is reported only once for each function it appears in
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:482:14: error: ‘TOKEN_REGEX_END’ undeclared (first use in this function)
+  482 |         case TOKEN_REGEX_END: return "REGEX_END";
+      |              ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:289:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘aegis_compliant’
+  289 |     ctx->aegis_compliant = false;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:173:10: error: request for member ‘value’ in something not a structure or union
+  173 |     token->value[length] = '\0';
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:380:35: error: ‘TokenizerContext’ has no member named ‘composition_count’
+  380 |         for (size_t i = 0; i < ctx->composition_count; i++) {
+      |                                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:476:14: error: ‘TOKEN_PUNCTUATION’ undeclared (first use in this function)
+  476 |         case TOKEN_PUNCTUATION: return "PUNCTUATION";
+      |              ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:168:35: error: expected expression before ‘)’ token
+  168 |     TokenNode* token = (TokenNode*)malloc(sizeof(TokenNode));
+      |                                   ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:290:8: error: ‘rift_tokenizer_context_t’ {aka ‘struct TokenizerContext’} has no member named ‘version’
+  290 |     ctx->version = 0;
+      |        ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:174:10: error: request for member ‘memory’ in something not a structure or union
+  174 |     token->memory = NULL;
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:381:20: error: ‘TokenizerContext’ has no member named ‘compositions’
+  381 |             if (ctx->compositions[i].pattern) {
+      |                    ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:483:14: error: ‘TOKEN_COMPOSE_AND’ undeclared (first use in this function); did you mean ‘TOKEN_COMMENT’?
+  483 |         case TOKEN_COMPOSE_AND: return "COMPOSE_AND";
+      |              ^~~~~~~~~~~~~~~~~
+      |              TOKEN_COMMENT
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:477:9: error: duplicate case value
+  477 |         case TOKEN_DELIMITER: return "DELIMITER";
+      |         ^~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:169:10: error: request for member ‘type’ in something not a structure or union
+  169 |     token->type = type;
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_destroy’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:382:25: error: ‘TokenizerContext’ has no member named ‘compositions’
+  382 |                 free(ctx->compositions[i].pattern);
+      |                         ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:484:14: error: ‘TOKEN_COMPOSE_OR’ undeclared (first use in this function); did you mean ‘TOKEN_COMMENT’?
+  484 |         case TOKEN_COMPOSE_OR: return "COMPOSE_OR";
+      |              ^~~~~~~~~~~~~~~~
+      |              TOKEN_COMMENT
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:475:9: note: previously used here
+  475 |         case TOKEN_OPERATOR: return "OPERATOR";
+      |         ^~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:170:10: error: request for member ‘length’ in something not a structure or union
+  170 |     token->length = length;
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:378:12: error: ‘TokenizerContext’ has no member named ‘compositions’
+  378 |     if (ctx->compositions) {
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:385:17: error: ‘TokenizerContext’ has no member named ‘compositions’
+  385 |         free(ctx->compositions);
+      |                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:178:20: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  178 | void token_destroy(TokenNode* token) {
+      |                    ^~~~~~~~~
+      |                    TokenType
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:171:10: error: request for member ‘value’ in something not a structure or union
+  171 |     token->value = (char*)malloc(length + 1);
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:380:35: error: ‘TokenizerContext’ has no member named ‘composition_count’
+  380 |         for (size_t i = 0; i < ctx->composition_count; i++) {
+      |                                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:485:14: error: ‘TOKEN_COMPOSE_XOR’ undeclared (first use in this function)
+  485 |         case TOKEN_COMPOSE_XOR: return "COMPOSE_XOR";
+      |              ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:388:12: error: ‘TokenizerContext’ has no member named ‘dfa_root’
+  388 |     if (ctx->dfa_root) {
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:481:14: error: ‘TOKEN_REGEX_START’ undeclared (first use in this function)
+  481 |         case TOKEN_REGEX_START: return "REGEX_START";
+      |              ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:172:17: error: request for member ‘value’ in something not a structure or union
+  172 |     memcpy(token->value, value, length);
+      |                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘demo_lexer_flags’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:381:20: error: ‘TokenizerContext’ has no member named ‘compositions’
+  381 |             if (ctx->compositions[i].pattern) {
+      |                    ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:389:9: error: implicit declaration of function ‘rift_dfa_destroy_states’ [-Werror=implicit-function-declaration]
+  389 |         rift_dfa_destroy_states(ctx->dfa_root);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:486:14: error: ‘TOKEN_COMPOSE_NAND’ undeclared (first use in this function)
+  486 |         case TOKEN_COMPOSE_NAND: return "COMPOSE_NAND";
+      |              ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:173:10: error: request for member ‘value’ in something not a structure or union
+  173 |     token->value[length] = '\0';
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:482:14: error: ‘TOKEN_REGEX_END’ undeclared (first use in this function)
+  482 |         case TOKEN_REGEX_END: return "REGEX_END";
+      |              ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:188:5: error: unknown type name ‘LexerContext’; did you mean ‘TokenizerContext’?
+  188 |     LexerContext ctx = {0};
+      |     ^~~~~~~~~~~~
+      |     TokenizerContext
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:382:25: error: ‘TokenizerContext’ has no member named ‘compositions’
+  382 |                 free(ctx->compositions[i].pattern);
+      |                         ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:487:14: error: ‘TOKEN_DFA_STATE’ undeclared (first use in this function); did you mean ‘TOKEN_DSL_PATTERN’?
+  487 |         case TOKEN_DFA_STATE: return "DFA_STATE";
+      |              ^~~~~~~~~~~~~~~
+      |              TOKEN_DSL_PATTERN
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:389:36: error: ‘TokenizerContext’ has no member named ‘dfa_root’
+  389 |         rift_dfa_destroy_states(ctx->dfa_root);
+      |                                    ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:189:5: error: implicit declaration of function ‘lexer_set_flag’ [-Werror=implicit-function-declaration]
+  189 |     lexer_set_flag(&ctx, LEXER_FLAG_RAW_STRING);
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:174:10: error: request for member ‘memory’ in something not a structure or union
+  174 |     token->memory = NULL;
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:385:17: error: ‘TokenizerContext’ has no member named ‘compositions’
+  385 |         free(ctx->compositions);
+      |                 ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:483:14: error: ‘TOKEN_COMPOSE_AND’ undeclared (first use in this function); did you mean ‘TOKEN_COMMENT’?
+  483 |         case TOKEN_COMPOSE_AND: return "COMPOSE_AND";
+      |              ^~~~~~~~~~~~~~~~~
+      |              TOKEN_COMMENT
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_reset’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:388:12: error: ‘TokenizerContext’ has no member named ‘dfa_root’
+  388 |     if (ctx->dfa_root) {
+      |            ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:189:26: error: ‘LEXER_FLAG_RAW_STRING’ undeclared (first use in this function)
+  189 |     lexer_set_flag(&ctx, LEXER_FLAG_RAW_STRING);
+      |                          ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:484:14: error: ‘TOKEN_COMPOSE_OR’ undeclared (first use in this function); did you mean ‘TOKEN_COMMENT’?
+  484 |         case TOKEN_COMPOSE_OR: return "COMPOSE_OR";
+      |              ^~~~~~~~~~~~~~~~
+      |              TOKEN_COMMENT
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:513:6: error: conflicting types for ‘rift_tokenizer_lock’; have ‘_Bool(TokenizerContext *)’
+  513 | bool rift_tokenizer_lock(TokenizerContext* ctx) {
+      |      ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:408:41: warning: argument to ‘sizeof’ in ‘memset’ call is the same expression as the destination; did you mean to provide an explicit length? [-Wsizeof-pointer-memaccess]
+  408 |     memset(ctx->error_message, 0, sizeof(ctx->error_message));
+      |                                         ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:389:9: error: implicit declaration of function ‘rift_dfa_destroy_states’ [-Werror=implicit-function-declaration]
+  389 |         rift_dfa_destroy_states(ctx->dfa_root);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:178:20: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  178 | void token_destroy(TokenNode* token) {
+      |                    ^~~~~~~~~
+      |                    TokenType
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:245:14: note: previous implicit declaration of ‘rift_tokenizer_lock’ with type ‘int()’
+  245 |         if (!rift_tokenizer_lock(ctx)) return false;
+      |              ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:190:26: error: ‘LEXER_FLAG_GLOBAL_TB’ undeclared (first use in this function)
+  190 |     lexer_set_flag(&ctx, LEXER_FLAG_GLOBAL_TB);
+      |                          ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:485:14: error: ‘TOKEN_COMPOSE_XOR’ undeclared (first use in this function)
+  485 |         case TOKEN_COMPOSE_XOR: return "COMPOSE_XOR";
+      |              ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘demo_lexer_flags’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:389:36: error: ‘TokenizerContext’ has no member named ‘dfa_root’
+  389 |         rift_dfa_destroy_states(ctx->dfa_root);
+      |                                    ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_tokenizer_reset’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_lock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:188:5: error: unknown type name ‘LexerContext’; did you mean ‘TokenizerContext’?
+  188 |     LexerContext ctx = {0};
+      |     ^~~~~~~~~~~~
+      |     TokenizerContext
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:191:26: error: ‘LEXER_FLAG_TOP_DOWN’ undeclared (first use in this function)
+  191 |     lexer_set_flag(&ctx, LEXER_FLAG_TOP_DOWN);
+      |                          ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:563:6: warning: conflicting types for ‘rift_dfa_destroy_states’; have ‘void(DFAState *)’
+  563 | void rift_dfa_destroy_states(DFAState* root) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:486:14: error: ‘TOKEN_COMPOSE_NAND’ undeclared (first use in this function)
+  486 |         case TOKEN_COMPOSE_NAND: return "COMPOSE_NAND";
+      |              ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:408:41: warning: argument to ‘sizeof’ in ‘memset’ call is the same expression as the destination; did you mean to provide an explicit length? [-Wsizeof-pointer-memaccess]
+  408 |     memset(ctx->error_message, 0, sizeof(ctx->error_message));
+      |                                         ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:515:12: error: implicit declaration of function ‘pthread_mutex_lock’ [-Werror=implicit-function-declaration]
+  515 |     return pthread_mutex_lock(&ctx->context_mutex) == 0;
+      |            ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:389:9: note: previous implicit declaration of ‘rift_dfa_destroy_states’ with type ‘void(DFAState *)’
+  389 |         rift_dfa_destroy_states(ctx->dfa_root);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:189:5: error: implicit declaration of function ‘lexer_set_flag’ [-Werror=implicit-function-declaration]
+  189 |     lexer_set_flag(&ctx, LEXER_FLAG_RAW_STRING);
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:193:9: error: implicit declaration of function ‘lexer_flag_enabled’ [-Werror=implicit-function-declaration]
+  193 |     if (lexer_flag_enabled(&ctx, LEXER_FLAG_RAW_STRING)) {
+      |         ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:515:35: error: ‘TokenizerContext’ has no member named ‘context_mutex’
+  515 |     return pthread_mutex_lock(&ctx->context_mutex) == 0;
+      |                                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:487:14: error: ‘TOKEN_DFA_STATE’ undeclared (first use in this function); did you mean ‘TOKEN_DSL_PATTERN’?
+  487 |         case TOKEN_DFA_STATE: return "DFA_STATE";
+      |              ^~~~~~~~~~~~~~~
+      |              TOKEN_DSL_PATTERN
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:202:5: error: implicit declaration of function ‘lexer_clear_flag’ [-Werror=implicit-function-declaration]
+  202 |     lexer_clear_flag(&ctx, LEXER_FLAG_TOP_DOWN);
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_regex_compile’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:189:26: error: ‘LEXER_FLAG_RAW_STRING’ undeclared (first use in this function)
+  189 |     lexer_set_flag(&ctx, LEXER_FLAG_RAW_STRING);
+      |                          ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:580:11: error: ‘RegexComposition’ has no member named ‘current_state’; did you mean ‘start_state’?
+  580 |     comp->current_state = NULL;
+      |           ^~~~~~~~~~~~~
+      |           start_state
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:563:6: warning: conflicting types for ‘rift_dfa_destroy_states’; have ‘void(DFAState *)’
+  563 | void rift_dfa_destroy_states(DFAState* root) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:518:6: error: conflicting types for ‘rift_tokenizer_unlock’; have ‘_Bool(TokenizerContext *)’
+  518 | bool rift_tokenizer_unlock(TokenizerContext* ctx) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:203:26: error: ‘LEXER_FLAG_SHIFT_REDUCE’ undeclared (first use in this function)
+  203 |     lexer_set_flag(&ctx, LEXER_FLAG_SHIFT_REDUCE);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:513:6: error: conflicting types for ‘rift_tokenizer_lock’; have ‘_Bool(TokenizerContext *)’
+  513 | bool rift_tokenizer_lock(TokenizerContext* ctx) {
+      |      ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:581:11: error: ‘RegexComposition’ has no member named ‘is_composed’; did you mean ‘is_compiled’?
+  581 |     comp->is_composed = false;
+      |           ^~~~~~~~~~~
+      |           is_compiled
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘demo_token_creation’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:190:26: error: ‘LEXER_FLAG_GLOBAL_TB’ undeclared (first use in this function)
+  190 |     lexer_set_flag(&ctx, LEXER_FLAG_GLOBAL_TB);
+      |                          ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:389:9: note: previous implicit declaration of ‘rift_dfa_destroy_states’ with type ‘void(DFAState *)’
+  389 |         rift_dfa_destroy_states(ctx->dfa_root);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:265:9: note: previous implicit declaration of ‘rift_tokenizer_unlock’ with type ‘int()’
+  265 |         rift_tokenizer_unlock(ctx);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:245:14: note: previous implicit declaration of ‘rift_tokenizer_lock’ with type ‘int()’
+  245 |         if (!rift_tokenizer_lock(ctx)) return false;
+      |              ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:582:9: error: ‘RegexComposition’ has no member named ‘pattern_length’
+  582 |     comp->pattern_length = strlen(pattern);
+      |         ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:211:5: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  211 |     TokenNode* t1 = token_create(TOKEN_TYPE_RAW_STRING, "R\"example\"", 10);
+      |     ^~~~~~~~~
+      |     TokenType
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c: In function ‘rift_regex_compile’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:191:26: error: ‘LEXER_FLAG_TOP_DOWN’ undeclared (first use in this function)
+  191 |     lexer_set_flag(&ctx, LEXER_FLAG_TOP_DOWN);
+      |                          ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_unlock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:580:11: error: ‘RegexComposition’ has no member named ‘current_state’; did you mean ‘start_state’?
+  580 |     comp->current_state = NULL;
+      |           ^~~~~~~~~~~~~
+      |           start_state
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_lock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:211:34: error: ‘TOKEN_TYPE_RAW_STRING’ undeclared (first use in this function); did you mean ‘TOKEN_LITERAL_STRING’?
+  211 |     TokenNode* t1 = token_create(TOKEN_TYPE_RAW_STRING, "R\"example\"", 10);
+      |                                  ^~~~~~~~~~~~~~~~~~~~~
+      |                                  TOKEN_LITERAL_STRING
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:520:12: error: implicit declaration of function ‘pthread_mutex_unlock’ [-Werror=implicit-function-declaration]
+  520 |     return pthread_mutex_unlock(&ctx->context_mutex) == 0;
+      |            ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:193:9: error: implicit declaration of function ‘lexer_flag_enabled’ [-Werror=implicit-function-declaration]
+  193 |     if (lexer_flag_enabled(&ctx, LEXER_FLAG_RAW_STRING)) {
+      |         ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:581:11: error: ‘RegexComposition’ has no member named ‘is_composed’; did you mean ‘is_compiled’?
+  581 |     comp->is_composed = false;
+      |           ^~~~~~~~~~~
+      |           is_compiled
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:515:12: error: implicit declaration of function ‘pthread_mutex_lock’ [-Werror=implicit-function-declaration]
+  515 |     return pthread_mutex_lock(&ctx->context_mutex) == 0;
+      |            ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:212:45: error: request for member ‘type’ in something not a structure or union
+  212 |     printf("Token type: %d, value: %s\n", t1->type, t1->value);
+      |                                             ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:520:37: error: ‘TokenizerContext’ has no member named ‘context_mutex’
+  520 |     return pthread_mutex_unlock(&ctx->context_mutex) == 0;
+      |                                     ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/rift_tokenizer.c:582:9: error: ‘RegexComposition’ has no member named ‘pattern_length’
+  582 |     comp->pattern_length = strlen(pattern);
+      |         ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:515:35: error: ‘TokenizerContext’ has no member named ‘context_mutex’
+  515 |     return pthread_mutex_lock(&ctx->context_mutex) == 0;
+      |                                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:202:5: error: implicit declaration of function ‘lexer_clear_flag’ [-Werror=implicit-function-declaration]
+  202 |     lexer_clear_flag(&ctx, LEXER_FLAG_TOP_DOWN);
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:212:55: error: request for member ‘value’ in something not a structure or union
+  212 |     printf("Token type: %d, value: %s\n", t1->type, t1->value);
+      |                                                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_trylock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:213:5: error: implicit declaration of function ‘token_destroy’; did you mean ‘hq_destroy’? [-Werror=implicit-function-declaration]
+  213 |     token_destroy(t1);
+      |     ^~~~~~~~~~~~~
+      |     hq_destroy
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:518:6: error: conflicting types for ‘rift_tokenizer_unlock’; have ‘_Bool(TokenizerContext *)’
+  518 | bool rift_tokenizer_unlock(TokenizerContext* ctx) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:525:12: error: implicit declaration of function ‘pthread_mutex_trylock’ [-Werror=implicit-function-declaration]
+  525 |     return pthread_mutex_trylock(&ctx->context_mutex) == 0;
+      |            ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:203:26: error: ‘LEXER_FLAG_SHIFT_REDUCE’ undeclared (first use in this function)
+  203 |     lexer_set_flag(&ctx, LEXER_FLAG_SHIFT_REDUCE);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:265:9: note: previous implicit declaration of ‘rift_tokenizer_unlock’ with type ‘int()’
+  265 |         rift_tokenizer_unlock(ctx);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:525:38: error: ‘TokenizerContext’ has no member named ‘context_mutex’
+  525 |     return pthread_mutex_trylock(&ctx->context_mutex) == 0;
+      |                                      ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:215:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘enforcement’
+  215 |  * contract enforcement for RIFTLang parallelism and concurrency system.
+      |             ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: In function ‘demo_token_creation’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:243:3: warning: data definition has no type or storage class
+  243 | } rift_span_type_t;
+      |   ^~~~~~~~~~~~~~~~
+cc1: some warnings being treated as errors
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_unlock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:211:5: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  211 |     TokenNode* t1 = token_create(TOKEN_TYPE_RAW_STRING, "R\"example\"", 10);
+      |     ^~~~~~~~~
+      |     TokenType
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:243:3: warning: type defaults to ‘int’ in declaration of ‘rift_span_type_t’ [-Wimplicit-int]
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_lock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:520:12: error: implicit declaration of function ‘pthread_mutex_unlock’ [-Werror=implicit-function-declaration]
+  520 |     return pthread_mutex_unlock(&ctx->context_mutex) == 0;
+      |            ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:249:5: error: expected specifier-qualifier-list before ‘rift_span_type_t’
+  249 |     rift_span_type_t span_type;     // Memory span classification
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:211:34: error: ‘TOKEN_TYPE_RAW_STRING’ undeclared (first use in this function); did you mean ‘TOKEN_LITERAL_STRING’?
+  211 |     TokenNode* t1 = token_create(TOKEN_TYPE_RAW_STRING, "R\"example\"", 10);
+      |                                  ^~~~~~~~~~~~~~~~~~~~~
+      |                                  TOKEN_LITERAL_STRING
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:516:1: warning: control reaches end of non-void function [-Wreturn-type]
+  516 | }
+      | ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:520:37: error: ‘TokenizerContext’ has no member named ‘context_mutex’
+  520 |     return pthread_mutex_unlock(&ctx->context_mutex) == 0;
+      |                                     ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:248:9: warning: struct has no members [-Wpedantic]
+  248 | typedef struct {
+      |         ^~~~~~
+gmake[3]: *** [CMakeFiles/rift-stage0-static.dir/build.make:174: CMakeFiles/rift-stage0-static.dir/src/core/lexer/rift_tokenizer.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:212:45: error: request for member ‘type’ in something not a structure or union
+  212 |     printf("Token type: %d, value: %s\n", t1->type, t1->value);
+      |                                             ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_unlock’:
+cc1: some warnings being treated as errors
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:343:5: error: unknown type name ‘rift_spawn_telemetry_t’
+  343 |     rift_spawn_telemetry_t base_telemetry;  // Inherit existing tracking
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_trylock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:212:55: error: request for member ‘value’ in something not a structure or union
+  212 |     printf("Token type: %d, value: %s\n", t1->type, t1->value);
+      |                                                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:521:1: warning: control reaches end of non-void function [-Wreturn-type]
+  521 | }
+      | ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:344:5: error: unknown type name ‘rift_governance_policy_t’
+  344 |     rift_governance_policy_t job_policy;    // Job-specific governance policy
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:525:12: error: implicit declaration of function ‘pthread_mutex_trylock’ [-Werror=implicit-function-declaration]
+  525 |     return pthread_mutex_trylock(&ctx->context_mutex) == 0;
+      |            ^~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_trylock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:213:5: error: implicit declaration of function ‘token_destroy’; did you mean ‘hq_destroy’? [-Werror=implicit-function-declaration]
+  213 |     token_destroy(t1);
+      |     ^~~~~~~~~~~~~
+      |     hq_destroy
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:407:25: error: expected declaration specifiers or ‘...’ before ‘rift_span_type_t’
+  407 |                         rift_span_type_t span_type);
+      |                         ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:525:38: error: ‘TokenizerContext’ has no member named ‘context_mutex’
+  525 |     return pthread_mutex_trylock(&ctx->context_mutex) == 0;
+      |                                      ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:526:1: warning: control reaches end of non-void function [-Wreturn-type]
+  526 | }
+      | ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c: At top level:
+gmake[3]: *** [CMakeFiles/rift-stage0.dir/build.make:174: CMakeFiles/rift-stage0.dir/src/core/lexer/rift_tokenizer.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:215:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘enforcement’
+  215 |  * contract enforcement for RIFTLang parallelism and concurrency system.
+      |             ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:243:3: warning: data definition has no type or storage class
+  243 | } rift_span_type_t;
+      |   ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:243:3: warning: type defaults to ‘int’ in declaration of ‘rift_span_type_t’ [-Wimplicit-int]
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_lock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:249:5: error: expected specifier-qualifier-list before ‘rift_span_type_t’
+  249 |     rift_span_type_t span_type;     // Memory span classification
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:516:1: warning: control reaches end of non-void function [-Wreturn-type]
+  516 | }
+      | ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:248:9: warning: struct has no members [-Wpedantic]
+  248 | typedef struct {
+      |         ^~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_unlock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:343:5: error: unknown type name ‘rift_spawn_telemetry_t’
+  343 |     rift_spawn_telemetry_t base_telemetry;  // Inherit existing tracking
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:521:1: warning: control reaches end of non-void function [-Wreturn-type]
+  521 | }
+      | ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:344:5: error: unknown type name ‘rift_governance_policy_t’
+  344 |     rift_governance_policy_t job_policy;    // Job-specific governance policy
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c: In function ‘rift_tokenizer_trylock’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer_flag.c:407:25: error: expected declaration specifiers or ‘...’ before ‘rift_span_type_t’
+  407 |                         rift_span_type_t span_type);
+      |                         ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/tokenizer.c:526:1: warning: control reaches end of non-void function [-Wreturn-type]
+  526 | }
+      | ^
+cc1: some warnings being treated as errors
+cc1: some warnings being treated as errors
+gmake[3]: *** [CMakeFiles/rift-stage0-static.dir/build.make:118: CMakeFiles/rift-stage0-static.dir/src/core/lexer/tokenizer.c.o] Error 1
+cc1: some warnings being treated as errors
+cc1: some warnings being treated as errors
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:104:1: error: unknown type name ‘validation_result_t’
+  104 | validation_result_t rift_validation_init(validation_context_t *ctx, const char *project_root) {
+      | ^~~~~~~~~~~~~~~~~~~
+gmake[3]: *** [CMakeFiles/rift-stage0-static.dir/build.make:104: CMakeFiles/rift-stage0-static.dir/src/core/lexer/lexer_flag.c.o] Error 1
+gmake[3]: *** [CMakeFiles/rift-stage0.dir/build.make:118: CMakeFiles/rift-stage0.dir/src/core/lexer/tokenizer.c.o] Error 1
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:104:42: error: unknown type name ‘validation_context_t’
+  104 | validation_result_t rift_validation_init(validation_context_t *ctx, const char *project_root) {
+      |                                          ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:133:1: error: unknown type name ‘validation_result_t’
+  133 | validation_result_t parse_governance_file(const char *file_path, governance_config_t *config) {
+      | ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:133:66: error: unknown type name ‘governance_config_t’
+  133 | validation_result_t parse_governance_file(const char *file_path, governance_config_t *config) {
+      |                                                                  ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:214:1: error: unknown type name ‘validation_result_t’
+  214 | validation_result_t validate_timestamp_freshness(const char *timestamp) {
+      | ^~~~~~~~~~~~~~~~~~~
+gmake[3]: *** [CMakeFiles/rift-stage0.dir/build.make:104: CMakeFiles/rift-stage0.dir/src/core/lexer/lexer_flag.c.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:180: CMakeFiles/rift-stage0-static.dir/all] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c: In function ‘validate_timestamp_freshness’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:217:47: error: ‘GOVERNANCE_EXPIRY_DAYS’ undeclared (first use in this function)
+  217 |     time_t expiry_threshold = current_time - (GOVERNANCE_EXPIRY_DAYS * 24 * 60 * 60);
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:217:47: note: each undeclared identifier is reported only once for each function it appears in
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:222:16: error: ‘VALIDATION_SCHEMA_VIOLATION’ undeclared (first use in this function)
+  222 |         return VALIDATION_SCHEMA_VIOLATION;
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:228:16: error: ‘VALIDATION_EXPIRED_GOVERNANCE’ undeclared (first use in this function)
+  228 |         return VALIDATION_EXPIRED_GOVERNANCE;
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:231:12: error: ‘VALIDATION_SUCCESS’ undeclared (first use in this function)
+  231 |     return VALIDATION_SUCCESS;
+      |            ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:240:1: error: unknown type name ‘validation_result_t’
+  240 | validation_result_t validate_semverx_compliance(validation_context_t *ctx, governance_config_t *config) {
+      | ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:240:49: error: unknown type name ‘validation_context_t’
+  240 | validation_result_t validate_semverx_compliance(validation_context_t *ctx, governance_config_t *config) {
+      |                                                 ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:240:76: error: unknown type name ‘governance_config_t’
+  240 | validation_result_t validate_semverx_compliance(validation_context_t *ctx, governance_config_t *config) {
+      |                                                                            ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:268:1: error: unknown type name ‘validation_result_t’
+  268 | validation_result_t validate_stage5_security(validation_context_t *ctx, stage5_optimizer_t *stage5_config) {
+      | ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:268:46: error: unknown type name ‘validation_context_t’
+  268 | validation_result_t validate_stage5_security(validation_context_t *ctx, stage5_optimizer_t *stage5_config) {
+      |                                              ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:268:73: error: unknown type name ‘stage5_optimizer_t’
+  268 | validation_result_t validate_stage5_security(validation_context_t *ctx, stage5_optimizer_t *stage5_config) {
+      |                                                                         ^~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:313:1: error: unknown type name ‘validation_result_t’
+  313 | validation_result_t validate_stage_governance(validation_context_t *ctx, int stage_id) {
+      | ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:313:47: error: unknown type name ‘validation_context_t’
+  313 | validation_result_t validate_stage_governance(validation_context_t *ctx, int stage_id) {
+      |                                               ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:375:1: error: unknown type name ‘validation_result_t’
+  375 | validation_result_t validate_complete_pipeline(validation_context_t *ctx) {
+      | ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:375:48: error: unknown type name ‘validation_context_t’
+  375 | validation_result_t validate_complete_pipeline(validation_context_t *ctx) {
+      |                                                ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:424:30: error: unknown type name ‘validation_context_t’
+  424 | void rift_validation_cleanup(validation_context_t *ctx) {
+      |                              ^~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c: In function ‘validate_timestamp_freshness’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/gov/rift-gov.0.c:232:1: warning: control reaches end of non-void function [-Wreturn-type]
+  232 | }
+      | ^
+gmake[3]: *** [CMakeFiles/rift-stage0.dir/build.make:188: CMakeFiles/rift-stage0.dir/src/core/gov/rift-gov.0.c.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:154: CMakeFiles/rift-stage0.dir/all] Error 2
+gmake[1]: *** [Makefile:146: all] Error 2
+make: *** [Makefile:55: build] Error 2

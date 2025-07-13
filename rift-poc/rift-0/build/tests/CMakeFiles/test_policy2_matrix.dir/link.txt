@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/test_policy2_matrix.dir/unit/test_policy2_matrix.c.o -o ../bin/test_policy2_matrix  ../lib/libtest_utils.a ../lib/librift-0.a -ldl 

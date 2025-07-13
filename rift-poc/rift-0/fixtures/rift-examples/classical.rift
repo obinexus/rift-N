@@ -1,0 +1,96 @@
+// RIFT Language Example - Stage-0 Tokenization Test
+// Demonstrates dual-channel processing and quantum/classic modes
+// Part of AEGIS Project - OBINexus Computing
+
+#[gov:aegis_phase_1]  // Governance tag for AEGIS compliance
+
+// Classic mode computation
+!classic
+x = 42
+y = x * 2
+result = x + y
+
+// Function definition in classic mode
+function calculate(a, b) {
+    return a + b * 2
+}
+
+// Switch to quantum mode
+!quantum
+
+// Quantum token initialization
+@quantum {
+    // Quantum register with superposition
+    qreg = |0⟩ + |1⟩
+    
+    // Entanglement protocol
+    @entangle(qreg, auxiliary)
+    
+    // Quantum gate application
+    H(qreg)  // Hadamard gate
+    CNOT(qreg, auxiliary)
+}
+
+// Measurement and collapse
+!collapse
+measured_value = measure(qreg)
+
+// Back to classic mode for result processing
+!classic
+if (measured_value == 0) {
+    output = "Collapsed to |0⟩"
+} else {
+    output = "Collapsed to |1⟩"
+}
+
+// Advanced quantum example with error handling
+!quantum
+@quantum {
+    // Multi-qubit system
+    q1 = |0⟩
+    q2 = |1⟩
+    q3 = superposition(0.707, 0.707)  // |+⟩ state
+    
+    // Three-qubit entanglement
+    @entangle(q1, q2, q3)
+    
+    // Quantum circuit
+    circuit {
+        H(q1)
+        CNOT(q1, q2)
+        Toffoli(q1, q2, q3)
+    }
+}
+
+// Governance checkpoint
+#[gov:checkpoint_alpha]
+
+// Collapse with error handling
+!collapse
+try {
+    result1 = measure(q1)
+    result2 = measure(q2)
+    result3 = measure(q3)
+} catch (DecoherenceError e) {
+    // Handle quantum decoherence
+    !panic(6)  // CRITICAL error level
+}
+
+// Final classic processing
+!classic
+final_result = encode_results(result1, result2, result3)
+
+// Memory governance directive
+#[gov:memory_constraint(max: 1MB)]
+
+// Token pattern testing
+identifier_test = valid_identifier_123
+number_test = 3.14159
+operator_test = x + y * z / 2
+
+// Unicode support for quantum notation
+!quantum
+ψ = α|0⟩ + β|1⟩  // Quantum state notation
+
+// End of file marker
+#[gov:stage_complete(0)]

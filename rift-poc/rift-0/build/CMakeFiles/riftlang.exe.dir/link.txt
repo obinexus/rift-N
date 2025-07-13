@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/riftlang.exe.dir/src/cli/main.c.o -o bin/riftlang  -Wl,-rpath,/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/build/lib: lib/librift-0.so.0.1.0 

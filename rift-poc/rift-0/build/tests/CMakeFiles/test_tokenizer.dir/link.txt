@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/test_tokenizer.dir/unit/test_tokenizer.c.o -o ../bin/test_tokenizer  ../lib/libtest_utils.a ../lib/librift-0.a -ldl 

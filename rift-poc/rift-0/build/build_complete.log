@@ -1,0 +1,294 @@
+[  1%] Creating artifact directories
+[  3%] Organizing object file directories
+[  3%] Built target organize_objects
+[  6%] Building C object CMakeFiles/rift-stage0.dir/src/core/rift-0.c.o
+[  6%] Building C object CMakeFiles/rift-stage0-static.dir/src/core/rift-0.c.o
+[  6%] Built target create_artifacts
+[  7%] Building C object CMakeFiles/rift-stage0-static.dir/src/core/lexer/lexer.c.o
+[  9%] Building C object tests/CMakeFiles/test_utils.dir/qa_assert.c.o
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/rift-0.h:8,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:7:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/rift-0.h:8,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:7:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer.h:5,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:8:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: error: redeclaration of enumerator ‘TOKEN_DSL_RULE’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer.h:5,
+                 from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:8:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: error: redeclaration of enumerator ‘TOKEN_DSL_RULE’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: note: previous definition of ‘TOKEN_DSL_RULE’ with type ‘enum <anonymous>’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: error: redeclaration of enumerator ‘TOKEN_DSL_ACTION’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: note: previous definition of ‘TOKEN_DSL_ACTION’ with type ‘enum <anonymous>’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: error: redeclaration of enumerator ‘TOKEN_DSL_DIRECTIVE’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: note: previous definition of ‘TOKEN_DSL_DIRECTIVE’ with type ‘enum <anonymous>’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:203:5: note: previous definition of ‘TOKEN_DSL_RULE’ with type ‘enum <anonymous>’
+  203 |     TOKEN_DSL_RULE = TOKEN_TYPE_COUNT,
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: error: redeclaration of enumerator ‘TOKEN_DSL_PATTERN’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: note: previous definition of ‘TOKEN_DSL_PATTERN’ with type ‘enum <anonymous>’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: error: redeclaration of enumerator ‘TOKEN_DSL_ACTION’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: error: redeclaration of enumerator ‘TOKEN_DSL_COUNT’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:204:5: note: previous definition of ‘TOKEN_DSL_ACTION’ with type ‘enum <anonymous>’
+  204 |     TOKEN_DSL_ACTION,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: note: previous definition of ‘TOKEN_DSL_COUNT’ with type ‘enum <anonymous>’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: error: redeclaration of enumerator ‘TOKEN_DSL_DIRECTIVE’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:205:5: note: previous definition of ‘TOKEN_DSL_DIRECTIVE’ with type ‘enum <anonymous>’
+  205 |     TOKEN_DSL_DIRECTIVE,
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: error: redeclaration of enumerator ‘TOKEN_DSL_PATTERN’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: error: conflicting types for ‘DSLTokenType’; have ‘enum <anonymous>’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:206:5: note: previous definition of ‘TOKEN_DSL_PATTERN’ with type ‘enum <anonymous>’
+  206 |     TOKEN_DSL_PATTERN,
+      |     ^~~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: note: previous declaration of ‘DSLTokenType’ with type ‘DSLTokenType’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: error: redeclaration of enumerator ‘TOKEN_DSL_COUNT’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:207:5: note: previous definition of ‘TOKEN_DSL_COUNT’ with type ‘enum <anonymous>’
+  207 |     TOKEN_DSL_COUNT
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: error: redeclaration of enumerator ‘DFA_STATE_START’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: note: previous definition of ‘DFA_STATE_START’ with type ‘enum <anonymous>’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: error: conflicting types for ‘DSLTokenType’; have ‘enum <anonymous>’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: error: redeclaration of enumerator ‘DFA_STATE_ACCEPT’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:208:3: note: previous declaration of ‘DSLTokenType’ with type ‘DSLTokenType’
+  208 | } DSLTokenType;
+      |   ^~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: note: previous definition of ‘DFA_STATE_ACCEPT’ with type ‘enum <anonymous>’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: error: redeclaration of enumerator ‘DFA_STATE_REJECT’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: error: redeclaration of enumerator ‘DFA_STATE_START’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: note: previous definition of ‘DFA_STATE_REJECT’ with type ‘enum <anonymous>’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:222:5: note: previous definition of ‘DFA_STATE_START’ with type ‘enum <anonymous>’
+  222 |     DFA_STATE_START = 0,
+      |     ^~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: error: redeclaration of enumerator ‘DFA_STATE_ACCEPT’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:223:5: note: previous definition of ‘DFA_STATE_ACCEPT’ with type ‘enum <anonymous>’
+  223 |     DFA_STATE_ACCEPT = 1,
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: error: redeclaration of enumerator ‘DFA_STATE_REJECT’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:224:5: note: previous definition of ‘DFA_STATE_REJECT’ with type ‘enum <anonymous>’
+  224 |     DFA_STATE_REJECT = -1
+      |     ^~~~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+<command-line>: error: expected identifier or ‘(’ before string constant
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:11:20: note: in expansion of macro ‘RIFT_VERSION’
+   11 | static const char* RIFT_VERSION = "0.1.0-dsl";
+      |                    ^~~~~~~~~~~~
+<command-line>: error: expected identifier or ‘(’ before string constant
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/rift-0.c:11:20: note: in expansion of macro ‘RIFT_VERSION’
+   11 | static const char* RIFT_VERSION = "0.1.0-dsl";
+      |                    ^~~~~~~~~~~~
+make[2]: *** [CMakeFiles/rift-stage0-static.dir/build.make:76: CMakeFiles/rift-stage0-static.dir/src/core/rift-0.c.o] Error 1
+make[2]: *** [CMakeFiles/rift-stage0.dir/build.make:76: CMakeFiles/rift-stage0.dir/src/core/rift-0.c.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/rift-stage0.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from /mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:11:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/include/rift-0/core/lexer/tokenizer_types.h:227:2: error: #endif without #if
+  227 | #endif /* Include guard end */
+      |  ^~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:100:1: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  100 | State* state_create(const char* pattern, bool is_final) {
+      | ^~~~~
+      | DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: In function ‘state_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:101:5: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  101 |     State* state = malloc(sizeof(State));
+      |     ^~~~~
+      |     DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:101:34: error: ‘State’ undeclared (first use in this function); did you mean ‘state’?
+  101 |     State* state = malloc(sizeof(State));
+      |                                  ^~~~~
+      |                                  state
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:101:34: note: each undeclared identifier is reported only once for each function it appears in
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:104:10: error: request for member ‘pattern’ in something not a structure or union
+  104 |     state->pattern = strdup(pattern);
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:105:15: error: request for member ‘pattern’ in something not a structure or union
+  105 |     if (!state->pattern) {
+      |               ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:110:10: error: request for member ‘is_final’ in something not a structure or union
+  110 |     state->is_final = is_final;
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:111:10: error: request for member ‘id’ in something not a structure or union
+  111 |     state->id = generate_id();
+      |          ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:115:20: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  115 | void state_destroy(State* state) {
+      |                    ^~~~~
+      |                    DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:121:20: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  121 | bool state_matches(State* state, const char* text) {
+      |                    ^~~~~
+      |                    DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:137:1: error: unknown type name ‘RegexAutomaton’
+  137 | RegexAutomaton* automaton_create(void) {
+      | ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: In function ‘automaton_create’:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:138:5: error: unknown type name ‘RegexAutomaton’
+  138 |     RegexAutomaton* automaton = malloc(sizeof(RegexAutomaton));
+      |     ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:138:47: error: ‘RegexAutomaton’ undeclared (first use in this function)
+  138 |     RegexAutomaton* automaton = malloc(sizeof(RegexAutomaton));
+      |                                               ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:141:14: error: request for member ‘state_capacity’ in something not a structure or union
+  141 |     automaton->state_capacity = 10;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:142:14: error: request for member ‘states’ in something not a structure or union
+  142 |     automaton->states = malloc(sizeof(State*) * automaton->state_capacity);
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:142:39: error: ‘State’ undeclared (first use in this function); did you mean ‘DFAState’?
+  142 |     automaton->states = malloc(sizeof(State*) * automaton->state_capacity);
+      |                                       ^~~~~
+      |                                       DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:142:45: error: expected expression before ‘)’ token
+  142 |     automaton->states = malloc(sizeof(State*) * automaton->state_capacity);
+      |                                             ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:143:19: error: request for member ‘states’ in something not a structure or union
+  143 |     if (!automaton->states) {
+      |                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:148:14: error: request for member ‘transition_capacity’ in something not a structure or union
+  148 |     automaton->transition_capacity = 20;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:149:14: error: request for member ‘transitions’ in something not a structure or union
+  149 |     automaton->transitions = malloc(sizeof(Transition*) * automaton->transition_capacity);
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:149:44: error: ‘Transition’ undeclared (first use in this function)
+  149 |     automaton->transitions = malloc(sizeof(Transition*) * automaton->transition_capacity);
+      |                                            ^~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:149:55: error: expected expression before ‘)’ token
+  149 |     automaton->transitions = malloc(sizeof(Transition*) * automaton->transition_capacity);
+      |                                                       ^
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:150:19: error: request for member ‘transitions’ in something not a structure or union
+  150 |     if (!automaton->transitions) {
+      |                   ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:151:23: error: request for member ‘states’ in something not a structure or union
+  151 |         free(automaton->states);
+      |                       ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:156:14: error: request for member ‘state_count’ in something not a structure or union
+  156 |     automaton->state_count = 0;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:157:14: error: request for member ‘transition_count’ in something not a structure or union
+  157 |     automaton->transition_count = 0;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:158:14: error: request for member ‘initial_state’ in something not a structure or union
+  158 |     automaton->initial_state = NULL;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:159:14: error: request for member ‘current_state’ in something not a structure or union
+  159 |     automaton->current_state = NULL;
+      |              ^~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c: At top level:
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:164:24: error: unknown type name ‘RegexAutomaton’
+  164 | void automaton_destroy(RegexAutomaton* automaton) {
+      |                        ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:181:1: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  181 | State* automaton_add_state(RegexAutomaton* automaton, const char* pattern, bool is_final) {
+      | ^~~~~
+      | DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:181:28: error: unknown type name ‘RegexAutomaton’
+  181 | State* automaton_add_state(RegexAutomaton* automaton, const char* pattern, bool is_final) {
+      |                            ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:207:31: error: unknown type name ‘RegexAutomaton’
+  207 | bool automaton_add_transition(RegexAutomaton* automaton, State* from, const char* pattern, State* to) {
+      |                               ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:207:58: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  207 | bool automaton_add_transition(RegexAutomaton* automaton, State* from, const char* pattern, State* to) {
+      |                                                          ^~~~~
+      |                                                          DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:207:92: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  207 | bool automaton_add_transition(RegexAutomaton* automaton, State* from, const char* pattern, State* to) {
+      |                                                                                            ^~~~~
+      |                                                                                            DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:236:1: error: unknown type name ‘State’; did you mean ‘DFAState’?
+  236 | State* automaton_get_next_state(RegexAutomaton* automaton, const char* input) {
+      | ^~~~~
+      | DFAState
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:236:33: error: unknown type name ‘RegexAutomaton’
+  236 | State* automaton_get_next_state(RegexAutomaton* automaton, const char* input) {
+      |                                 ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:251:1: error: unknown type name ‘IRGenerator’
+  251 | IRGenerator* ir_generator_create(RegexAutomaton* automaton) {
+      | ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:251:34: error: unknown type name ‘RegexAutomaton’
+  251 | IRGenerator* ir_generator_create(RegexAutomaton* automaton) {
+      |                                  ^~~~~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:269:27: error: unknown type name ‘IRGenerator’
+  269 | void ir_generator_destroy(IRGenerator* generator) {
+      |                           ^~~~~~~~~~~
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:282:1: error: unknown type name ‘TokenNode’; did you mean ‘TokenType’?
+  282 | TokenNode* ir_generator_process_token(IRGenerator* generator, const char* token) {
+      | ^~~~~~~~~
+      | TokenType
+/mnt/c/Users/OBINexus/Projects/github/rift-poc/rift-0/src/core/lexer/lexer.c:282:39: error: unknown type name ‘IRGenerator’
+  282 | TokenNode* ir_generator_process_token(IRGenerator* generator, const char* token) {
+      |                                       ^~~~~~~~~~~
+make[2]: *** [CMakeFiles/rift-stage0-static.dir/build.make:90: CMakeFiles/rift-stage0-static.dir/src/core/lexer/lexer.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:181: CMakeFiles/rift-stage0-static.dir/all] Error 2
+[ 10%] Linking C static library ../lib/libtest_utils.a
+[ 10%] Built target test_utils
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,58 @@
+@startuml
+left to right direction
+skinparam style strictuml
+skinparam componentStyle rectangle
+skinparam defaultFontColor black
+skinparam shadowing false
+
+' Define colors for each zone
+skinparam component {
+  BackgroundColor<<Config>> #E0F7FA
+  BackgroundColor<<Linker>> #FFF0F5
+  BackgroundColor<<Engine>> #E8F5E9
+  BackgroundColor<<Minimizer>> #FFFDE7
+  BackgroundColor<<Lang>> #F3E5F5
+}
+
+' Diagram keys only (no concrete impl)
+component "RIFTLang" <<Config>> as RIFT
+component "NLink (Build: nlink.txt)" <<Linker>> as NLINK1
+component "LibRIFT Runtime Engine" <<Engine>> as LIBRIFT
+component "NLink (Optimize: package.nlink)" <<Minimizer>> as NLINK2
+component "GosiLang (.gs via gosi)" <<Lang>> as GOSI
+
+RIFT --> NLINK1
+NLINK1 --> LIBRIFT
+LIBRIFT --> NLINK2
+NLINK2 --> GOSI
+
+note top of RIFT
+  • DSL Config
+  • DOP + Policy
+  • `riftlang` output: .lriftlang
+end note
+
+note top of NLINK1
+  • Pipeline Builder
+  • Loads modules (tokenizer/parser)
+  • Single-pass defined in nlink.txt
+end note
+
+note top of LIBRIFT
+  • LR/RL Matching
+  • Bottom-up + Top-down
+  • Thread-safe logic
+end note
+
+note top of NLINK2
+  • Tree Shaking
+  • AST + FSM Minimizer
+  • Uses package.nlink
+end note
+
+note top of GOSI
+  • DSL Output
+  • `.gs` source
+  • Executed by `gosi`
+end note
+@endum
